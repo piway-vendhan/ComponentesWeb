@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8" />
+  <title>Revolution - Gallery Slider - Asisco</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/prettify.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="index.html"><i class="icon-home"></i>Asisco</a>
+      <ul class="nav">
+	       <li class="dropdown">
+           <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+              Gallery
+              <i class="icon-caret-down"></i>
+           </a>
+           <ul class="dropdown-menu" role="menu">
+                <li class="nav-header">Frame</li>
+				<li><a href="gallery_frame-Variable_Images_Frames.html">Variable Images Frames</a></li>
+				<li><a href="gallery_frame-Hoverbox_Image_Gallery.html">Hoverbox Image Gallery</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Slider</li>
+				<li><a href="gallery_slider-Cube_One.html">Cube One</a></li>
+				<li><a href="gallery_slider-Gallery_Slider_One.html">Gallery Slider One</a></li>
+				<li><a href="gallery_slider-Camera.html">Camera</a></li>				
+				<li><a href="gallery_slider-Kenburns_Panel.html">Kenburns Panel</a></li>				
+				<li><a href="gallery_slider-Showcase.html">Showcase</a></li>				
+				<li><a href="gallery_slider-Slodorion.html">Slodorion</a></li>				
+				<li><a href="gallery_slider-Swf_Object.html">Swf Object</a></li>				
+				<li class="divider"></li>
+				<li class="nav-header">Ligthbox</li>
+           </ul> 
+        </li>		
+		<li><a href="#integration">Popup</a></li>
+		<li><a href="#integration">Font</a></li>
+		<li><a href="#integration">Bootstrap</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:contato@asisco.com.br"><i class="icon-envelope"></i>email</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+	<div class="container">
+		<h3>Componentes Web<span style="font-size: 18px;"> / Gallery Slider </span></h3>
+		
+	</div>
+</div>
+
+<div id="social-buttons">
+  <div class="container">
+    <span class="watch">
+      <a class="btn btn-mini" href="https://github.com/diegolirio/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Watch</a>
+      <a id="watchers" class="count btn btn-mini" href="https://github.com/diegolirio/Font-Awesome">9000+</a>
+    </span>
+    <span class="fork">
+      <a class="btn btn-mini" href="https://github.com/diegolirio/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Fork</a>
+      <a id="forks" class="count btn btn-mini" href="#">800+</a>
+    </span>
+    <span class="follow">
+      <a class="btn btn-mini" href="http://twitter.com/fortaweso_me/" target="_blank"><i class="icon-twitter icon-large"></i> Follow @fortaweso_me</a>
+      <span id="followers" class="count btn btn-mini">2500+</span>
+    </span>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+		  <h2 class="page-header">Revolution</h2>
+		  <!-- Componente -->
+					<script src="Galeria/Slider/Asisco/wanda/jquery-1.7.2.min.js"></script>
+					<link rel="stylesheet" type="text/css" href="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/css/responsive.css" media="screen" />
+					<link rel="stylesheet" type="text/css" href="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/rs-plugin/css/settings.css" media="screen" />
+					<script type="text/javascript" src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/rs-plugin/js/jquery.templateaccess.plugins.min.js"></script>
+					<script type="text/javascript" src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/rs-plugin/js/jquery.templateaccess.revolution.js"></script>
+
+					<script type="text/javascript">
+
+					var tpj=jQuery;
+					//tpj.noConflict();
+
+					tpj(document).ready(function() {
+
+						if (tpj.fn.cssOriginal!=undefined)
+							tpj.fn.css = tpj.fn.cssOriginal;
+
+						tpj('.rev_banner').revolution(
+							{
+								delay:6000,
+								startheight:490,
+								startwidth:890,
+
+								hideThumbs:200,
+
+								thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+								thumbHeight:50,
+								thumbAmount:5,
+
+								navigationType:"bullet",					//bullet, thumb, none, both		(No Thumbs In FullWidth Version !)
+								navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+								navigationStyle:"navbar",				//round,square,navbar
+
+								touchenabled:"on",						// Enable Swipe Function : on/off
+								onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+								navOffsetHorizontal:0,
+								navOffsetVertical:20,
+
+								shadow:1,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+								fullWidth:"off",							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+
+								stopLoop:"off"							// on == Stop loop at the last Slie,  off== Loop all the time.
+							});
+
+						});
+
+					</script>
+		 
+					 <div class="rev_bannercontainer">
+					  <div class="rev_banner">
+						<ul>
+
+						  <li data-transition="slidedown" data-slotamount="14"  data-masterspeed="300" data-delay="10000" data-thumb="js/revolution/images/thumbs/regular_thumb6.jpg"> 
+							<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/4_0.jpg" />
+							<div class="caption sft big_versatti_blue"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Toyota Hilux</div>
+							<div class="caption sft medium_versatti_blue"  data-x="550" data-y="167" data-speed="300" data-start="1300" data-easing="easeOutExpo">SRV 4X4 3.0</div>
+							<div class="caption lfb medium_versatti_blue"  data-x="550" data-y="190" data-speed="300" data-start="1400" data-easing="easeOutExpo">Automatico 4P</div> 
+							<div class="caption sfb" data-x="1" data-y="1" data-speed="300" data-start="200" data-easing="easeOutBack"><img src="http://versattimultimarcas.com.br/images/orange/versatti_logo.png"></div>
+							<div class="caption sfb" data-x="550" data-y="220" data-speed="300" data-start="2500" data-easing="easeOutBack"><a class="btn btn-primary btn-small" style="color:#fff;" href="versatti_veiculos_detalhes_hilux_1.html">mais detalhes...</a></div>
+						  </li>	
+						  
+						  <li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="300"  data-thumb="js/revolution/images/thumbs/regular_thumb3.jpg"> 
+							<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/7_0.jpg"  >
+							<div class="caption lfl big_versatti_blue"  data-x="40" data-y="50" data-speed="300" data-start="1200" data-easing="easeOutExpo" style="padding:9px;">Hyundai HB20</div>
+							<div class="caption lfl medium_versatti_blue"  data-x="40" data-y="120" data-speed="300" data-start="1300" data-easing="easeOutExpo" style="padding:9px;">Comfort 1.0</div>
+							<div class="caption lfl medium_versatti_blue"  data-x="40" data-y="155" data-speed="300" data-start="1400" data-easing="easeOutExpo" style="padding:9px;">Manul 4P</div>
+							<div class="caption lfl big_versatti_orange"  data-x="40" data-y="190" data-speed="300" data-start="1400" data-easing="easeOutExpo" style="padding:9px;">Zero km !</div>
+							<div class="caption sfb" data-x="40" data-y="250" data-speed="300" data-start="2500" data-easing="easeOutBack"><a class="btn btn-primary btn-small" style="color:#fff;" href="#">mais detalhes...</a></div>
+						  </li>							  
+
+						  <li data-transition="boxfade" data-slotamount="12"  data-masterspeed="300"  title="Volkswagem Crossfox" data-thumb="js/revolution/images/thumbs/regular_thumb2.jpg"> 
+							<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/5_0.jpg"  />
+							<div class="caption lft big_versatti_blue"  data-x="350" data-y="80" data-speed="900" data-start="1200" data-easing="easeOutBack">Kia Sorento</div>
+							<div class="caption sfb medium_versatti_blue" style="padding:8px;"  data-x="350" data-y="120" data-speed="300" data-start="2200" data-easing="easeOutExpo">EX 16V 2.4 (S.356)</div>
+							<div class="caption sfb medium_versatti_blue" style="padding:8px;"  data-x="350" data-y="150" data-speed="300" data-start="2400" data-easing="easeOutExpo">Automatico 4P</div>
+							<div class="caption sfb" data-x="350" data-y="220" data-speed="300" data-start="2500" data-easing="easeOutBack"><a class="btn btn-primary btn-small" style="color:#fff;" href="#">mais detalhes...</a></div>
+						  </li>					
+
+						  <li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="300"  data-thumb="js/revolution/images/thumbs/regular_thumb3.jpg"> 
+							<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/6_0.jpg"  >
+							<div class="caption lfl big_versatti_orange"  data-x="40" data-y="50" data-speed="300" data-start="1200" data-easing="easeOutExpo" style="padding:9px;">Chevrolet Captiva</div>
+							<div class="caption lfl medium_versatti_blue"  data-x="40" data-y="140" data-speed="300" data-start="1300" data-easing="easeOutExpo" style="padding:9px;">Sport V6 4x4 3.0</div>
+							<div class="caption lfl medium_versatti_blue"  data-x="40" data-y="175" data-speed="300" data-start="1400" data-easing="easeOutExpo" style="padding:9px;">Automatico 4P</div>
+							<div class="caption sfb" data-x="40" data-y="220" data-speed="300" data-start="2500" data-easing="easeOutBack"><a class="btn btn-primary btn-small" style="color:#fff;" href="#">mais detalhes...</a></div>
+						  </li>						  
+
+						  <li data-transition="boxfade" data-slotamount="12"  data-masterspeed="300"  title="Volkswagem Crossfox" data-thumb="js/revolution/images/thumbs/regular_thumb2.jpg"> 
+							<img src="http://img0.icarros.com/dbimg/imgadicionalanuncio/2/12990641_1"  >
+							<div class="caption lft big_versatti_blue"  data-x="350" data-y="80" data-speed="900" data-start="1200" data-easing="easeOutBack">Volkswagem Crossfox</div>
+							<div class="caption sfb medium_versatti_blue" style="padding:8px;"  data-x="350" data-y="120" data-speed="300" data-start="2200" data-easing="easeOutExpo">VHT Flex</div>
+							<div class="caption sfb medium_versatti_blue" style="padding:8px;"  data-x="350" data-y="150" data-speed="300" data-start="2400" data-easing="easeOutExpo">1.6 4P Manual</div>
+							<div class="caption sfb" data-x="350" data-y="220" data-speed="300" data-start="2500" data-easing="easeOutBack"><a class="btn btn-primary btn-small" style="color:#fff;" href="#">mais detalhes...</a></div>
+						  </li>		
+						
+						  <li data-transition="slidedown" data-slotamount="14"  data-masterspeed="300" data-delay="10000" data-thumb="js/revolution/images/thumbs/regular_thumb6.jpg"> 
+							<img src="http://img0.icarros.com/dbimg/imgadicionalanuncio/2/14374551_1"  >
+							<div class="caption sft big_versatti_blue"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Hyundai ix35</div>
+							<div class="caption sft medium_versatti_blue"  data-x="550" data-y="167" data-speed="300" data-start="1300" data-easing="easeOutExpo">GLS Flex</div>
+							<div class="caption lfb medium_versatti_blue"  data-x="550" data-y="190" data-speed="300" data-start="1400" data-easing="easeOutExpo">2.0 4P Automático</div>
+							<div class="caption sfb" data-x="1" data-y="1" data-speed="300" data-start="200" data-easing="easeOutBack"><img src="http://versattimultimarcas.com.br/images/orange/versatti_logo.png"></div>
+							<div class="caption sfb" data-x="550" data-y="220" data-speed="300" data-start="2500" data-easing="easeOutBack"><a class="btn btn-primary btn-small" style="color:#fff;" href="#">mais detalhes...</a></div>
+						  </li>		
+						
+							<!-- diferentes fontes: 
+														very_big_white, 
+														very_big_black,
+														big_black,
+														big_white,
+														medium_grey,										
+														small_text
+							-->											
+
+							<li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="300"  data-thumb="js/revolution/images/thumbs/regular_thumb3.jpg"> 
+							<img src="http://cogumelolouco.com/wp-content/uploads/2012/08/camaro-amarelo-fotos.jpg"  >
+							<div class="caption lfl big_versatti_orange"  data-x="40" data-y="50" data-speed="300" data-start="1200" data-easing="easeOutExpo" style="padding:9px;">Chevrolet Camaro</div>
+							<div class="caption lfl medium_versatti_blue"  data-x="40" data-y="140" data-speed="300" data-start="1300" data-easing="easeOutExpo" style="padding:9px;">LS Coupé V6 Gasolina</div>
+							<div class="caption lfl medium_versatti_blue"  data-x="40" data-y="175" data-speed="300" data-start="1400" data-easing="easeOutExpo" style="padding:9px;">3.6 2P Automático</div>
+							<div class="caption sfb" data-x="40" data-y="220" data-speed="300" data-start="2500" data-easing="easeOutBack"><a class="btn btn-primary btn-small" style="color:#fff;" href="#">mais detalhes...</a></div>
+						  </li>		
+						  
+						  <li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="300"  data-thumb="js/revolution/images/thumbs/regular_thumb3.jpg"> 
+								<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/versatti_back.png"  >
+								<div class="caption sfb" data-x="10" data-y="5" data-speed="300" data-start="1200" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/_camaro.jpg">
+								</div>						
+								<div class="caption sfb" data-x="240" data-y="80" data-speed="300" data-start="2100" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/_audi.png">
+								</div>												
+								<div class="caption sfb" data-x="100" data-y="400" data-speed="300" data-start="3200" data-easing="easeOutBack">
+									<img src="http://versattimultimarcas.com.br/images/orange/versatti_logo.png">
+								</div>												
+							  </li>		
+							  
+							  <li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="300"  data-thumb="js/revolution/images/thumbs/regular_thumb3.jpg"> 
+								<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/versatti_back.png"  >
+								<div class="caption sfb" data-x="0" data-y="0" data-speed="300" data-start="900" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/alfa.png" height="150" width="180" />
+								</div>						
+								<div class="caption sfb" data-x="160" data-y="0" data-speed="300" data-start="1200" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/chevrolet.png" height="150" width="180" />
+								</div>												
+								<div class="caption sfb" data-x="65" data-y="115" data-speed="65" data-start="1500" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/bmw.png" height="150" width="180" />
+								</div>																					
+								<div class="caption sfb" data-x="165" data-y="170" data-speed="65" data-start="2100" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/citroen.png" height="150" width="180" />
+								</div>																				
+								<div class="caption sfb" data-x="440" data-y="95	" data-speed="65" data-start="1000" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/ford.png" height="150" width="180" />
+								</div>														
+								<div class="caption sfb" data-x="420" data-y="5" data-speed="65" data-start="1300" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/fiat.png" height="150" width="180" />
+								</div>																				
+								<div class="caption sfb" data-x="280" data-y="90" data-speed="65" data-start="1600" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/honda.png" height="150" width="180" />
+								</div>								
+								<div class="caption sfb" data-x="1" data-y="360" data-speed="65" data-start="1900" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/hyundai.png" height="150" width="180" />
+								</div>											
+								<div class="caption sfb" data-x="0" data-y="210" data-speed="65" data-start="2200" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/mitsubishi.png" height="150" width="180" />
+								</div>								
+								<div class="caption sfb" data-x="570" data-y="2" data-speed="65" data-start="2500" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/peugeot.png" height="150" width="180" />
+								</div>														
+								<div class="caption sfb" data-x="330" data-y="260" data-speed="65" data-start="2800" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/volkswagem.png" height="150" width="180" />
+								</div>														
+								<div class="caption sfb" data-x="480" data-y="250" data-speed="65" data-start="3000" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/toyota.png" height="150" width="180" />
+								</div>														
+								<div class="caption sfb" data-x="585" data-y="150" data-speed="65" data-start="3300" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/volvo-logo.png" height="150" width="180" />
+								</div>																	
+								<div class="caption sfb" data-x="715" data-y="0" data-speed="65" data-start="2000" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/dodge.png" height="150" width="180" />
+								</div>
+								<div class="caption sfb" data-x="180" data-y="310" data-speed="65" data-start="2300" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/ferrari.png" height="150" width="180" />
+								</div>						
+								<div class="caption sfb" data-x="640" data-y="330" data-speed="65" data-start="2300" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/kia.png" height="150" width="180" />
+								</div>												
+								<div class="caption sfb" data-x="740" data-y="195" data-speed="65" data-start="2600" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/porshe.png" height="150" width="180" />
+								</div>											
+								<div class="caption sfb" data-x="440" data-y="390" data-speed="65" data-start="1800" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/audi.png" height="150" width="180" />
+								</div>														
+								<div class="caption sfb" data-x="700" data-y="430" data-speed="10" data-start="4500" data-easing="easeOutBack">
+									<img src="Galeria/Slider/Asisco/wanda/revolution_3/images/facebook_png.png"  />
+								</div>										
+							
+						  </li>		
+						</ul>
+						<div class="tp-bannertimer"></div>
+					  </div> <!-- /rev_banner -->
+					</div> 			  
+			      <!-- Fim Componente -->
+				  
+				  <br/>
+				  <p>
+					 <a href="gallery_slider-revolution_3_2.html" class="btn btn-primary">ver outro</a>
+					 <a href="gallery_slider-revolution_3_only.html" class="btn" target="_blank">only</a>
+				  </p>	   
+				  <br/>
+				  <p>.........</p>		  
+	  
+		<div class="bs-docs-example">
+		  <div class="accordion" id="accordion2">
+			<div class="accordion-group">
+			  <div class="accordion-heading">
+				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+				  Source Code
+				</a>
+			  </div>
+			  <div id="collapseTwo" class="accordion-body collapse">
+				<div class="accordion-inner">                      
+					<p>Faca o Download dos arquivos, e inclua em sua aplicacao na seguinte estrutura...</p>
+					<pre class="prettyprint">
+Galeria/
++-- Slider/
+|   +-- I
+|   |   +-- gallery_slide_one/
+|   |   |   +-- img/
+|   |   |   |   +-- active_bg.png
+|   |   |   |   +-- divider.png
+|   |   |   |   +-- panel.jpg
+|   |   |   |   +-- pic_bg.png
+|   |   |   |   +-- carros
+|   |   |   |   |   +-- veloster_3.jpg
+|   |   |   |   |   +-- veloster_3_8.jpg
+|   |   |   |   |   +-- veloster_3_9.jpg
+|   |   |   |   |   +-- veloster_3_10.jpg
+|   |   |   |   |   +-- veloster_3_11.jpg
+|   |   |   |   |   +-- veloster_3_12.jpg
+|   |   |   |   |   +-- veloster_3_13.jpg
+|   |   |   |   |   +-- veloster_3_14.jpg
+|   |   |   |   |   +-- veloster_3_15.jpg
+|   |   |   + -- gallery_slide.css
+|   |   |   + -- script.js
+					</pre>						  
+				  
+		<p>Estrutura Local. Coloque em seu header:</p>					
+		<pre class="prettyprint linenums">
+&lt;link rel="stylesheet" type="text/css" href="Galeria/Slider/I/gallery_slide_one/gallery_slide.css" />
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">&lt;/script>
+&lt;script type="text/javascript" src="Galeria/Slider/I/gallery_slide_one/script.js">&lt;/script>				
+		</pre>		  
+		Html
+		<pre class="prettyprint linenums">
+&lt;!-- Gallery Slide One. -->	  		  
+&lt;div id="gallery_slide_one">	      
+&lt;div id="slides_one">    
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3.jpg" alt="side" />
+	&lt;/div>
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_8.jpg" alt="side" />
+	&lt;/div>
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_9.jpg" alt="side" />
+	&lt;/div>
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_10.jpg" alt="side" />
+	&lt;/div>      
+&lt;/div>
+
+&lt;div id="menu_slide">    
+	&lt;ul>
+		&lt;li class="fbar">&nbsp;</li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3.jpg" alt="thumbnail" />&lt;/a>
+		&lt;/li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_8.jpg" alt="thumbnail" />&lt;/a>
+		&lt;/li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_9.jpg" alt="thumbnail"/>&lt;/a>
+		&lt;/li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_10.jpg" alt="thumbnail"/>&lt;/a>
+		&lt;/li>
+	&lt;/ul>
+&lt;/div>    
+&lt;/div>		
+&lt;!-- Fim Gallery Slide One. -->	 	
+		</pre>		
+
+					<h4>Para Alterar Imagens e Tamanho do componente faca o seguinte:</h4>
+					<p>...</p>
+				  
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>		  		
+	  
+</div>
+</section>  
+
+<div class="container">
+	<section id="why" class="clearfix">
+	  <h3 class="page-header"><a href="gallery_slider.html">Mais Gallery Slider...</h3></a>
+	  <div class="row"> 		
+		<div class="span6">
+		  <h4>
+			<h4><i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Cube_One.html">Cube One</a>
+		  </h4>
+		  <p class="description_object">Slide de fotos com efeitos 3D.</p>
+		  <a href="gallery_slider-Cube_One.html"><img class="img-rounded" src="images/mais/cube_one_.png"/></a>
+		</div>
+		<div class="span6">
+		  <h4>
+			<i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Camera.html">Camera</a>
+		  </h4>
+		  <p class="description_object">Scalable vector graphics means every icon looks awesome at any size.</p>
+		  <a href="gallery_slider-Camera.html"><img class="img-rounded" src="images/mais/camera_.png"/></a>
+		</div>		
+	  </div>
+
+	  <div class="row"> 		  
+		<div class="span6">
+		  <h4>
+			<i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Kenburns_Panel.html">Kenburn Panel</a>
+		  </h4>
+		  <p class="description_object">Scalable vector graphics means every icon looks awesome at any size.</p>
+		  <a href="gallery_slider-Kenburns_Panel.html"><img class="img-rounded" src="images/mais/kenburn_panel_.png"></a>
+		</div>		
+		<div class="span6">
+		  <h4>
+			 <i class="icon-fullscreen"></i>
+			 <a href="gallery_slider-Showcase.html">Show Case</a>
+		  </h4>
+		  <p class="description_object">Scalable vector graphics means every icon looks awesome at any size.</p>
+		  <a href="gallery_slider-Showcase.html"><img class="img-rounded" src="images/mais/show_case_.png"></a>
+		</div>		
+	  </div> 	
+	  
+	  <div class="row"> 
+		<div class="span6">
+		  <h4>
+			<i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Slodorion.html">Slodorion</a>
+		  </h4>
+		  <p class="description_object">Easily style icon color, size, shadow, and anything that's possible with CSS.</p>
+		  <a href="gallery_slider-Slodorion.html"><img class="img-rounded" src="images/mais/Slodorion_.png"/></a>
+		</div>			  	
+	  </div> 	
+	</section>
+</div>		  
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="span4">
+        <h2>Contato</h2>
+        <ul class="icons">
+          <li><i class="icon-envelope"></i> Email: <a href="mailto:contato@asisco.com.br">Asisco</a></li>
+          <li><i class="icon-twitter"></i> Twitter: <a href="https://twitter.com/fortaweso_me/" target="_blank">@asiscoWeb</a></li>
+          <li><i class="icon-wrench"></i> Work: Produto Asisco @ <a href="#kyruus">Asisco</a></li>
+        </ul>
+      </div>
+      <div class="span8">
+        <h4>Asisco - Desenvolvimento de sites e aplicaçoes Web</h4>
+        <!--<p>
+          Special thanks to <a href="https://twitter.com/diegolirio/" target="_blank">@diegolirio</a> and
+          <a href="https://twitter.com/fabiano_goes/" target="_blank">@fabiano_goes</a> for icon design
+          review, advice, and some backbone.js help.
+        </p>
+        <p>
+          Special thanks to <a target="_blank" href="https://twitter.com/@BrunoOnb">@BrunoOnb</a> and
+          <a target="_blank" href="https://twitter.com/johnsmclay">@johnsmclay</a> for developing
+          <a target="_blank"  href="http://icnfnt.com/">icnfnt</a>, the best way to sub-set Font Awesome to get just the
+          icons you need.
+        </p>-->
+		<p>
+          Agredecimentos especiais a <a href="https://twitter.com/diegolirio/" target="_blank">@diegolirio</a> e
+          <a href="https://twitter.com/fabiano_goes/" target="_blank">@fabiano_goes</a> ícone para revisão de projeto, 
+		  desenvolvimento, consultoria e outras ajudas tecnológicas.
+        </p>
+		<p>Agredecimentos especiais a <a target="_blank" href="https://twitter.com/@BrunoOnb">@BrunoOnb</a>, 
+		a melhor maneira de expressar comunicação visual.</p>
+      </div>
+	  
+    </div>
+  </div>
+</footer>
+
+
+<!--<script src="assets/js/jquery-1.7.1.min.js"></script>-->
+<script src="assets/js/underscore.min.js"></script>
+<script src="assets/js/backbone.min.js"></script>
+<script src="assets/js/prettify.min.js"></script>
+<script src="assets/js/bootstrap-222.min.js"></script>
+<script src="assets/js/index/index.js"></script>
+
+</body>
+</html>

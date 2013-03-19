@@ -1,0 +1,9 @@
+OK --- Baixar todos os Bootswatch.
+Ok --- Baixar FortAwesome.
+--- Criar arquivos em php.
+
+
+
+
+--- Mudar de stilo utilizando um xml que mantem a pasta do stilo css.
+--- Criar Bootstrap asisco.

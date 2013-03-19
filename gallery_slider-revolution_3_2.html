@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Revolution</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/prettify.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+<script src="Galeria/Slider/Asisco/wanda/jquery-1.7.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/css/responsive.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/rs-plugin/css/settings.css" media="screen" />
+<script type="text/javascript" src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/rs-plugin/js/jquery.templateaccess.plugins.min.js"></script>
+<script type="text/javascript" src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/rs-plugin/js/jquery.templateaccess.revolution.js"></script>
+
+<script type="text/javascript">
+
+var tpj=jQuery;
+//tpj.noConflict();
+
+tpj(document).ready(function() {
+
+	if (tpj.fn.cssOriginal!=undefined)
+		tpj.fn.css = tpj.fn.cssOriginal;
+
+	tpj('.rev_banner').revolution(
+		{
+			delay:6000,
+			startheight:490,
+			startwidth:890,
+
+			hideThumbs:200,
+
+			thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+			thumbHeight:50,
+			thumbAmount:5,
+
+			navigationType:"bullet",					//bullet, thumb, none, both		(No Thumbs In FullWidth Version !)
+			navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+			navigationStyle:"navbar",				//round,square,navbar
+
+			touchenabled:"on",						// Enable Swipe Function : on/off
+			onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+			navOffsetHorizontal:0,
+			navOffsetVertical:20,
+
+			shadow:1,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+			fullWidth:"off",							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+
+			stopLoop:"off"							// on == Stop loop at the last Slie,  off== Loop all the time.
+		});
+
+	});
+
+</script>
+
+<!-- diferentes fontes: 
+														very_big_white, 
+														very_big_black,
+														big_black,
+														big_white,
+														medium_grey,										
+														small_text
+							-->											
+						
+</head>
+<body data-spy="scroll" data-target=".navbar">
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="index.html"><i class="icon-home"></i>Asisco</a>
+      <ul class="nav">
+	       <li class="dropdown">
+           <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+              Gallery
+              <i class="icon-caret-down"></i>
+           </a>
+           <ul class="dropdown-menu" role="menu">
+                <li class="nav-header">Frame</li>
+				<li><a href="gallery_frame-Variable_Images_Frames.html">Variable Images Frames</a></li>
+				<li><a href="gallery_frame-Hoverbox_Image_Gallery.html">Hoverbox Image Gallery</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Slider</li>
+				<li><a href="gallery_slider-Cube_One.html">Cube One</a></li>
+				<li><a href="gallery_slider-Gallery_Slider_One.html">Gallery Slider One</a></li>
+				<li><a href="gallery_slider-Camera.html">Camera</a></li>				
+				<li><a href="gallery_slider-Kenburns_Panel.html">Kenburns Panel</a></li>				
+				<li><a href="gallery_slider-Showcase.html">Showcase</a></li>				
+				<li><a href="gallery_slider-Slodorion.html">Slodorion</a></li>				
+				<li><a href="gallery_slider-Swf_Object.html">Swf Object</a></li>				
+				<li class="divider"></li>
+				<li class="nav-header">Ligthbox</li>
+           </ul> 
+        </li>		
+		<li><a href="#integration">Popup</a></li>
+		<li><a href="#integration">Font</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:contato@asisco.com.br"><i class="icon-envelope"></i>email</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+	<div class="container">
+		<h3>Componentes Web<span style="font-size: 18px;"> / Gallery Slider </span></h3>
+		
+	</div>
+</div>
+
+<div id="social-buttons">
+  <div class="container">
+    <span class="watch">
+      <a class="btn btn-mini" href="https://github.com/diegolirio/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Watch</a>
+      <a id="watchers" class="count btn btn-mini" href="https://github.com/diegolirio/Font-Awesome">9000+</a>
+    </span>
+    <span class="fork">
+      <a class="btn btn-mini" href="https://github.com/diegolirio/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Fork</a>
+      <a id="forks" class="count btn btn-mini" href="#">800+</a>
+    </span>
+    <span class="follow">
+      <a class="btn btn-mini" href="http://twitter.com/fortaweso_me/" target="_blank"><i class="icon-twitter icon-large"></i> Follow @fortaweso_me</a>
+      <span id="followers" class="count btn btn-mini">2500+</span>
+    </span>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+		 <h2 class="page-header">Revolution default</h2>
+		 <!-- Componente -->
+			 
+			<div class="rev_bannercontainer">
+				<div class="rev_banner">
+				<ul>
+				  
+				  <!-- slide 1 -->
+				  <li data-transition="curtain-3" data-slotamount="5"  data-masterspeed="300" data-thumb="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb1.jpg" > <img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide1_a.jpg">
+					<div class="caption sfb" data-x="490" data-y="40" data-speed="6900" data-start="500" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish1.png"></div>
+					<div class="caption sfb" data-x="450" data-y="70" data-speed="7900" data-start="900" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish1.png"></div>
+					<div class="caption sfb" data-x="550" data-y="70" data-speed="8900" data-start="1200" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish1.png"></div>
+					<div class="caption lfr" data-x="550" data-y="120" data-speed="3700" data-start="800" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish2.png"></div>
+					<div class="caption lfr" data-x="620" data-y="240" data-speed="4700" data-start="1000" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish3.png"></div>
+					<div class="caption lfr" data-x="490" data-y="200" data-speed="2700" data-start="800" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish4.png"></div>
+					<div class="caption lfr" data-x="660" data-y="50" data-speed="8700" data-start="800" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish5.png"></div>
+					<div class="caption lfr" data-x="377" data-y="290" data-speed="2700" data-start="800" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/fish6.png"></div>
+					<div class="caption lfb big_white"  data-x="50" data-y="47" data-speed="900" data-start="1700" data-easing="easeOutBack" style="padding:15px;"> Revolution Slider</div>
+					<div class="caption lft big_white"  data-x="50" data-y="119" data-speed="900" data-start="1900" data-easing="easeOutBack" style="padding:9px;">World's <span style="font-weight:normal;">#1</span><em> Parallax Slider</em></div>
+					<div class="caption lfr medium_grey"  data-x="60" data-y="190" data-speed="300" data-start="2500" data-easing="easeOutExpo">Unlimited Transitions</div>
+					<div class="caption sfl" data-x="60" data-y="230" data-speed="300" data-start="2600" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/check.png"></div>
+					<div class="caption lfr small_text"  data-x="120" data-y="228" data-speed="300" data-start="2600" data-easing="easeOutExpo">Sliding, Fading, Slots, Box Transitions<br/>
+					  <span style="color: #ccc;">SLIDER REVOLUTION</span> has it all!</div>
+					<div class="caption sfl" data-x="60" data-y="280" data-speed="300" data-start="2900" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/check.png"></div>
+					<div class="caption lfr small_text"  data-x="120" data-y="287" data-speed="300" data-start="2900" data-easing="easeOutExpo">Responsive & Mobile Optimized</div>
+					<div class="caption sfl" data-x="60" data-y="330" data-speed="300" data-start="3200" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/check.png"></div>
+					<div class="caption lfr small_text"  data-x="120" data-y="328" data-speed="300" data-start="3200" data-easing="easeOutExpo">Customizable Navigation<br/>
+					  Arrows, Bullets, Thumbs</div>
+					<div class="caption sfb" data-x="55" data-y="380" data-speed="1000" data-start="3500" data-easing="easeOutBack"><a href="http://www.dcodes.net/" target="_blank" class="button blue small">More Details</a></div>
+				  </li>
+				  
+				  <!-- slide 2 -->
+				  <li data-transition="boxfade" data-slotamount="12"  data-masterspeed="300"  data-link="http://www.nasa.gov" title="Visit NASA Website" data-thumb="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb2.jpg"> <img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_a.jpg"  >
+					<div class="caption lft big_white"  data-x="350" data-y="80" data-speed="900" data-start="1200" data-easing="easeOutBack">The Planets</div>
+					<div class="caption sfl" data-x="-270" data-y="0" data-speed="700" data-start="1700" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_b.gif"></div>
+					<div class="caption sfb" data-x="160" data-y="210" data-speed="800" data-start="1200" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_c.png"></div>
+					<div class="caption sfb" data-x="210" data-y="215" data-speed="900" data-start="1300" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_d.png"></div>
+					<div class="caption sfb" data-x="290" data-y="220" data-speed="1000" data-start="1400" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_e.png"></div>
+					<div class="caption sfb" data-x="370" data-y="240" data-speed="1100" data-start="1500" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_f.png"></div>
+					<div class="caption sfb" data-x="410" data-y="230" data-speed="1200" data-start="1600" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_g.png"></div>
+					<div class="caption sfb" data-x="540" data-y="225" data-speed="1300" data-start="1700" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_h.png"></div>
+					<div class="caption sfb" data-x="700" data-y="210" data-speed="1400" data-start="1800" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_i.png"></div>
+					<div class="caption sfb" data-x="760" data-y="200" data-speed="1500" data-start="1900" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_j.png"></div>
+					<div class="caption sfb" data-x="825" data-y="190" data-speed="1600" data-start="2000" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide2_k.png"></div>
+					<div class="caption sfb small_text" style="padding:8px;"  data-x="350" data-y="120" data-speed="300" data-start="2600" data-easing="easeOutExpo">The Amazing Solar System</div>
+				  </li>
+				  
+				  <!-- slide 3 -->
+				  <li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="300"  data-thumb="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb3.jpg"> <img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide3_a.jpg"  >
+					<div class="caption sfb" data-x="340" data-y="30" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide3_b.png"></div>
+					<div class="caption lfl" data-x="290" data-y="160" data-speed="700" data-start="800" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide3_c.png"></div>
+					<div class="caption sfb" data-x="470" data-y="300" data-speed="700" data-start="1200" data-easing="easeOutExpo"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide3_d.png"></div>
+					<div class="caption sfb medium_grey" style="padding:8px;"  data-x="40" data-y="320" data-speed="300" data-start="1800" data-easing="easeOutExpo">100% Responsive</div>
+					<div class="caption lfl very_big_white"  data-x="40" data-y="50" data-speed="300" data-start="1200" data-easing="easeOutExpo" style="padding:9px;">PC</div>
+					<div class="caption lfl very_big_white"  data-x="40" data-y="140" data-speed="300" data-start="1300" data-easing="easeOutExpo" style="padding:9px;">Tablet</div>
+					<div class="caption lfl very_big_white"  data-x="40" data-y="230" data-speed="300" data-start="1400" data-easing="easeOutExpo" style="padding:9px;">Mobile</div>
+					<div class="caption lfb medium_grey"  data-x="40" data-y="400" data-speed="300" data-start="1500" data-easing="easeOutExpo" style="padding:9px;"><a href="#">Signup Now</a></div>
+				  </li>
+				  
+				  <!-- slide 4 -->
+				  <li data-transition="slideup" data-slotamount="20" data-masterspeed="300" data-delay="10000" data-thumb="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb5.jpg"> <img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide4_a.jpg"  >
+					<div class="caption lfb boxshadow" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack">
+					  <iframe src="http://player.vimeo.com/video/49224248?title=0&amp;byline=0&amp;portrait=0;api=1" width="460" height="259"></iframe>
+					</div>
+					<div class="caption sft big_black"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Video Support</div>
+					<div class="caption sft big_white"  data-x="550" data-y="157" data-speed="300" data-start="1300" data-easing="easeOutExpo">Vimeo Example</div>
+					<div class="caption lfb medium_grey"  data-x="550" data-y="210" data-speed="300" data-start="1400" data-easing="easeOutExpo">You can easily add</div>
+					<div class="caption lfb medium_grey"  data-x="550" data-y="234" data-speed="300" data-start="1500" data-easing="easeOutExpo">Vimeo Videos</div>
+					<div class="caption lfb medium_grey"  data-x="550" data-y="258" data-speed="300" data-start="1600" data-easing="easeOutExpo">to your Slides</div>
+					<div class="caption sfb" data-x="0" data-y="0" data-speed="300" data-start="200" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/vimeo.jpg"></div>
+				  </li>
+				  
+				  <!-- slide 5 -->
+				  <li data-transition="slidedown" data-slotamount="14"  data-masterspeed="300" data-delay="10000" data-thumb="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb6.jpg"> <img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/slide5_a.jpg"  >
+					<div class="caption lft boxshadow" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack">
+					  <iframe src="http://www.youtube.com/embed/JYKpIr1lSG0?hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0" width="460" height="259"></iframe>
+					</div>
+					<div class="caption sft big_black"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Video Support</div>
+					<div class="caption sft big_white"  data-x="550" data-y="157" data-speed="300" data-start="1300" data-easing="easeOutExpo">Youtube Example</div>
+					<div class="caption lfb medium_grey"  data-x="550" data-y="210" data-speed="300" data-start="1400" data-easing="easeOutExpo">You can easily add</div>
+					<div class="caption lfb medium_grey"  data-x="550" data-y="234" data-speed="300" data-start="1500" data-easing="easeOutExpo">Youtube Videos</div>
+					<div class="caption lfb medium_grey"  data-x="550" data-y="258" data-speed="300" data-start="1600" data-easing="easeOutExpo">to your Slides</div>
+					<div class="caption sfb" data-x="0" data-y="0" data-speed="300" data-start="200" data-easing="easeOutBack"><img src="Galeria/Slider/Asisco/wanda/revolution_3/js/revolution/images/youtube.png"></div>
+				  </li>
+				</ul>
+			<div class="tp-bannertimer"></div>
+		  </div> <!-- /rev_banner -->
+		</div> 
+	   <!-- Fim Componente -->
+	   
+	   <br/>
+	   <p>
+			<a href="gallery_slider-revolution_3.html" class="btn btn-primary">ver outro</a>
+			<a href="gallery_slider-revolution_3_2_only.html" class="btn" target="_blank">only</a>
+	   </p>	   
+	   <br/>
+	   <p>.........</p>		  
+	  
+		<div class="bs-docs-example">
+		  <div class="accordion" id="accordion2">
+			<div class="accordion-group">
+			  <div class="accordion-heading">
+				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+				  Source Code
+				</a>
+			  </div>
+			  <div id="collapseTwo" class="accordion-body collapse">
+				<div class="accordion-inner">                      
+					<p>Faca o Download dos arquivos, e inclua em sua aplicacao na seguinte estrutura...</p>
+					<pre class="prettyprint">
+Galeria/
++-- Slider/
+|   +-- I
+|   |   +-- gallery_slide_one/
+|   |   |   +-- img/
+|   |   |   |   +-- active_bg.png
+|   |   |   |   +-- divider.png
+|   |   |   |   +-- panel.jpg
+|   |   |   |   +-- pic_bg.png
+|   |   |   |   +-- carros
+|   |   |   |   |   +-- veloster_3.jpg
+|   |   |   |   |   +-- veloster_3_8.jpg
+|   |   |   |   |   +-- veloster_3_9.jpg
+|   |   |   |   |   +-- veloster_3_10.jpg
+|   |   |   |   |   +-- veloster_3_11.jpg
+|   |   |   |   |   +-- veloster_3_12.jpg
+|   |   |   |   |   +-- veloster_3_13.jpg
+|   |   |   |   |   +-- veloster_3_14.jpg
+|   |   |   |   |   +-- veloster_3_15.jpg
+|   |   |   + -- gallery_slide.css
+|   |   |   + -- script.js
+					</pre>						  
+				  
+		<p>Estrutura Local. Coloque em seu header:</p>					
+		<pre class="prettyprint linenums">
+&lt;link rel="stylesheet" type="text/css" href="Galeria/Slider/I/gallery_slide_one/gallery_slide.css" />
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">&lt;/script>
+&lt;script type="text/javascript" src="Galeria/Slider/I/gallery_slide_one/script.js">&lt;/script>				
+		</pre>		  
+		Html
+		<pre class="prettyprint linenums">
+&lt;!-- Gallery Slide One. -->	  		  
+&lt;div id="gallery_slide_one">	      
+&lt;div id="slides_one">    
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3.jpg" alt="side" />
+	&lt;/div>
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_8.jpg" alt="side" />
+	&lt;/div>
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_9.jpg" alt="side" />
+	&lt;/div>
+	&lt;div class="slide">
+		&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_10.jpg" alt="side" />
+	&lt;/div>      
+&lt;/div>
+
+&lt;div id="menu_slide">    
+	&lt;ul>
+		&lt;li class="fbar">&nbsp;</li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3.jpg" alt="thumbnail" />&lt;/a>
+		&lt;/li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_8.jpg" alt="thumbnail" />&lt;/a>
+		&lt;/li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_9.jpg" alt="thumbnail"/>&lt;/a>
+		&lt;/li>
+		&lt;li class="menuItem">
+			&lt;a href="">&lt;img src="Galeria/Slider/I/gallery_slide_one/img/carros/veloster_3_10.jpg" alt="thumbnail"/>&lt;/a>
+		&lt;/li>
+	&lt;/ul>
+&lt;/div>    
+&lt;/div>		
+&lt;!-- Fim Gallery Slide One. -->	 	
+		</pre>		
+
+					<h4>Para Alterar Imagens e Tamanho do componente faca o seguinte:</h4>
+					<p>...</p>
+				  
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>		  		
+	  
+</div>
+</section>  
+
+<div class="container">
+	<section id="why" class="clearfix">
+	  <h3 class="page-header"><a href="gallery_slider.html">Mais Gallery Slider...</h3></a>
+	  <div class="row"> 		
+		<div class="span6">
+		  <h4>
+			<h4><i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Cube_One.html">Cube One</a>
+		  </h4>
+		  <p class="description_object">Slide de fotos com efeitos 3D.</p>
+		  <a href="gallery_slider-Cube_One.html"><img class="img-rounded" src="images/mais/cube_one_.png"/></a>
+		</div>
+		<div class="span6">
+		  <h4>
+			<i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Camera.html">Camera</a>
+		  </h4>
+		  <p class="description_object">Scalable vector graphics means every icon looks awesome at any size.</p>
+		  <a href="gallery_slider-Camera.html"><img class="img-rounded" src="images/mais/camera_.png"/></a>
+		</div>		
+	  </div>
+
+	  <div class="row"> 		  
+		<div class="span6">
+		  <h4>
+			<i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Kenburns_Panel.html">Kenburn Panel</a>
+		  </h4>
+		  <p class="description_object">Scalable vector graphics means every icon looks awesome at any size.</p>
+		  <a href="gallery_slider-Kenburns_Panel.html"><img class="img-rounded" src="images/mais/kenburn_panel_.png"></a>
+		</div>		
+		<div class="span6">
+		  <h4>
+			 <i class="icon-fullscreen"></i>
+			 <a href="gallery_slider-Showcase.html">Show Case</a>
+		  </h4>
+		  <p class="description_object">Scalable vector graphics means every icon looks awesome at any size.</p>
+		  <a href="gallery_slider-Showcase.html"><img class="img-rounded" src="images/mais/show_case_.png"></a>
+		</div>		
+	  </div> 	
+	  
+	  <div class="row"> 
+		<div class="span6">
+		  <h4>
+			<i class="icon-fullscreen"></i>
+			<a href="gallery_slider-Slodorion.html">Slodorion</a>
+		  </h4>
+		  <p class="description_object">Easily style icon color, size, shadow, and anything that's possible with CSS.</p>
+		  <a href="gallery_slider-Slodorion.html"><img class="img-rounded" src="images/mais/Slodorion_.png"/></a>
+		</div>			  	
+	  </div> 	
+	</section>
+</div>		  
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="span4">
+        <h2>Contato</h2>
+        <ul class="icons">
+          <li><i class="icon-envelope"></i> Email: <a href="mailto:contato@asisco.com.br">Asisco</a></li>
+          <li><i class="icon-twitter"></i> Twitter: <a href="https://twitter.com/fortaweso_me/" target="_blank">@asiscoWeb</a></li>
+          <li><i class="icon-wrench"></i> Work: Produto Asisco @ <a href="#kyruus">Asisco</a></li>
+        </ul>
+      </div>
+      <div class="span8">
+        <h4>Asisco - Desenvolvimento de sites e aplicaçoes Web</h4>
+        <!--<p>
+          Special thanks to <a href="https://twitter.com/diegolirio/" target="_blank">@diegolirio</a> and
+          <a href="https://twitter.com/fabiano_goes/" target="_blank">@fabiano_goes</a> for icon design
+          review, advice, and some backbone.js help.
+        </p>
+        <p>
+          Special thanks to <a target="_blank" href="https://twitter.com/@BrunoOnb">@BrunoOnb</a> and
+          <a target="_blank" href="https://twitter.com/johnsmclay">@johnsmclay</a> for developing
+          <a target="_blank"  href="http://icnfnt.com/">icnfnt</a>, the best way to sub-set Font Awesome to get just the
+          icons you need.
+        </p>-->
+		<p>
+          Agredecimentos especiais a <a href="https://twitter.com/diegolirio/" target="_blank">@diegolirio</a> e
+          <a href="https://twitter.com/fabiano_goes/" target="_blank">@fabiano_goes</a> ícone para revisão de projeto, 
+		  desenvolvimento, consultoria e outras ajudas tecnológicas.
+        </p>
+		<p>Agredecimentos especiais a <a target="_blank" href="https://twitter.com/@BrunoOnb">@BrunoOnb</a>, 
+		a melhor maneira de expressar comunicação visual.</p>
+      </div>
+	  
+    </div>
+  </div>
+</footer>
+
+
+<!--<script src="assets/js/jquery-1.7.1.min.js"></script>-->
+<script src="assets/js/underscore.min.js"></script>
+<script src="assets/js/backbone.min.js"></script>
+<script src="assets/js/prettify.min.js"></script>
+<script src="assets/js/bootstrap-222.min.js"></script>
+<script src="assets/js/index/index.js"></script>
+
+</body>
+</html>

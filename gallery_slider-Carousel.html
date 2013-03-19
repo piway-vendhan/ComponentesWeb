@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+  <meta charset="utf-8">
+  <title>Carousel - Gallery Slider - Asisco</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/prettify.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  
+  <!-- Fonts google api 
+    <link rel="stylesheet" type="text/css" href="assets/css/font_google_api/font_google_api.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie%20Flower">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nobile">  
+  <!-- fim Fonts google api -->
+  
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="index.html"><i class="icon-home"></i>Asisco</a>
+      <ul class="nav">
+	       <li class="dropdown">
+           <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+              Gallery
+              <i class="icon-caret-down"></i>
+           </a>
+           <ul class="dropdown-menu" role="menu">
+                <li class="nav-header">Frame</li>
+				<li><a href="gallery_frame-Variable_Images_Frames.html">Variable Images Frames</a></li>
+				<li><a href="gallery_frame-Hoverbox_Image_Gallery.html">Hoverbox Image Gallery</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Slider</li>
+				<li><a href="gallery_slider-Cube_One.html">Cube One</a></li>
+				<li><a href="gallery_slider-Gallery_Slider_One.html">Gallery Slider One</a></li>
+				<li><a href="gallery_slider-Camera.html">Camera</a></li>				
+				<li class="divider"></li>
+				<li class="nav-header">Ligthbox</li>
+           </ul>
+        </li>		
+		<li><a href="#integration">Popup</a></li>
+		<li><a href="#integration">Font</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:contato@asisco.com.br"><i class="icon-envelope"></i>email</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+	<div class="container">
+		<h3>Componentes Web<span style="font-size: 18px;"> / Gallery Slider</span></h3>
+		
+	</div>
+</div>
+
+<div id="social-buttons">
+  <div class="container">
+    <span class="watch">
+      <a class="btn btn-mini" href="https://github.com/diegolirio/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Watch</a>
+      <a id="watchers" class="count btn btn-mini" href="https://github.com/diegolirio/Font-Awesome">9000+</a>
+    </span>
+    <span class="fork">
+      <a class="btn btn-mini" href="https://github.com/diegolirio/Font-Awesome" target="_blank"><i class="icon-github icon-large"></i> Fork</a>
+      <a id="forks" class="count btn btn-mini" href="#">800+</a>
+    </span>
+    <span class="follow">
+      <a class="btn btn-mini" href="http://twitter.com/fortaweso_me/" target="_blank"><i class="icon-twitter icon-large"></i> Follow @fortaweso_me</a>
+      <span id="followers" class="count btn btn-mini">2500+</span>
+    </span>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+		  <h2 class="page-header">Carousel</h2> 
+  </div>	  
+		  <!-- Componente -->
+		  
+			<link rel="stylesheet" href="Galeria/Slider/I/carousel/css/carousel.css" type="text/css" media="screen" /> 
+			<script type="text/javascript" src="Galeria/Slider/I/carousel/js/jquery.v1.4.2.js"></script>
+			<script type="text/javascript" src="Galeria/Slider/I/carousel/js/zoomslide.js"></script>
+			<script type="text/javascript"> 
+			$(function(){
+				$('#carousel').infiniteCarousel({
+					displayTime: 3000, // number of ms before next slide (3000 = 3 seconds)
+					transitionSpeed: 250,
+					textholderHeight : .25,	
+					displayThumbnailBackground: 0,
+					displayProgressBar : 1
+				});
+			});
+			</script>			  		  
+		  
+			<div id="carousel-wrapper"></div>
+			<!--HIDES THE SCROLLBAR-->
+			<div id="nobar" style="background-color: #1C1C1C;">
+			  <!--Center section of carousel displaying main item-->
+			  <div id="carousel-holder">
+				<div id="carousel">
+				  <ul>
+					<!-- If user wants to pull posts from a category for the slider do this stuff -->
+					<li> <img src="Galeria/Slider/I/carousel/images/simple_img_1.jpg" width="960" height="400" alt="simple_img"/></li>
+					<li> <img src="Galeria/Slider/I/carousel/images/simple_img_2.jpg" width="960" height="400" alt="simple_img"/></li>
+					<li> <img src="Galeria/Slider/I/carousel/images/simple_img_3.jpg" width="960" height="400" alt="simple_img"/></li>
+					<li> <img src="Galeria/Slider/I/carousel/images/simple_img_4.jpg" width="960" height="400" alt="simple_img"/></li>
+					<li> <img src="Galeria/Slider/I/carousel/images/simple_img_5.jpg" width="960" height="400" alt="simple_img"/></li>
+					<!-- If user wants to define specific content in the slider do this stuff -->
+				  </ul>          
+				</div>
+			  </div>
+			</div>		  
+		  <!-- Fim Componente -->	
+  <div class="container">		  
+		  <br/>
+		  <p>...</p>		  
+		  
+            <div class="bs-docs-example">
+              <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                      Source Code
+                    </a>
+                  </div>
+                  <div id="collapseTwo" class="accordion-body collapse">
+                    <div class="accordion-inner">                      
+						<p>Faça o Download dos arquivos, e inclua em sua aplicação na seguinte estrutura...</p>
+						<pre class="prettyprint">
+Galeria/
++-- Slider/
+|   +-- I/
+|   |   +-- cube_one/
+|   |   |   +-- images/
+|   |   |   |   +-- img_1.jpg
+|   |   |   |   +-- img_2.jpg
+|   |   |   |   +-- img_3.jpg
+|   |   |   |   +-- img_4.jpg
+|   |   |   +-- js/
+|   |   |   |   +-- swfobject/
+|   |   |   |   |   +-- swfobject.js
+|   |   |   +-- config.xml
+|   |   |   +-- cu3er.swf 
+						</pre>						  
+					  
+		    <p>Estrutura Local. Coloque em seu header:</p>					
+			<pre class="prettyprint linenums">
+&lt;script type="text/javascript" src="Galeria/Slider/I/cube_one/js/swfobject/swfobject.js">&lt;/script>
+			</pre>		  
+			Html
+			<pre class="prettyprint linenums">
+&lt;!-- Cube One -->
+&lt;script type="text/javascript">
+	var flashvars = {};
+	flashvars.xml = "Galeria/Slider/I/cube_one/config.xml";
+	flashvars.font = "Galeria/Slider/I/cube_one/font.swf"; 
+	var attributes = {};
+	attributes.wmode = "transparent";
+	attributes.id = "slider";
+	swfobject.embedSWF( "Galeria/Slider/I/cube_one/cu3er.swf",
+						"cu3er-container", 
+						"960", 
+						"316", "9", "Galeria/Slider/I/cube_one/expressInstall.swf", 
+						flashvars, attributes);
+						
+&lt;/script>
+
+&lt;div class="header_text_bg">    
+  &lt;div id="cu3er-container"> 
+	&lt;a href="http://www.adobe.com/go/getflashplayer"> 
+		&lt;img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" 
+			 alt="Get Adobe Flash player" /> 
+	&lt;/a> 
+  &lt;/div>
+&lt;/div>		
+&lt;!-- Fim Cube One -->	
+			</pre>		
+
+						<h4>Para Alterar Imagens e Tamanho do componente faço o seguinte:</h4>
+						<p>...</p>
+					  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>		  		
+		  
+  </div>
+</section>  
+
+<div class="container">
+<section id="why" class="clearfix">
+  <h3 class="page-header">Mais Gallery Slider...</h3> 	 
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-flag"></i> One font, 249 icons</h4>
+      In a single collection, Font Awesome is a pictographic language of web-related actions.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-pencil"></i> CSS control</h4>
+      Easily style icon color, size, shadow, and anything that's possible with CSS.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-fullscreen"></i> Infinite scalability</h4>
+      Scalable vector graphics means every icon looks awesome at any size.
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-beer"></i> Free, as in Beer</h4>
+      Font Awesome is completely free for commercial use. Check out the <a href="#license">license</a>.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-ok"></i> IE7 Support</h4>
+      Font Awesome supports IE7. If you need it, you have my condolences.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-eye-open"></i> Perfect on Retina Displays</h4>
+      Font Awesome icons are vectors, which mean they're gorgeous on high-resolution displays.
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <h4><i class="icon-thumbs-up"></i> Made for Twitter Bootstrap</h4>
+      Designed from scratch to be fully compatible with <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap 2.2.2</a>.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-tint"></i> Designer Friendly</h4>
+      Install FontAwesome.otf and <a href="design.html" target="_blank">visit the copy & paste page</a>. Happy designing.
+    </div>
+    <div class="span4">
+      <h4><i class="icon-search"></i> Screen reader compatible</h4>
+      Font Awesome won't trip up screen readers, unlike other icon fonts.
+    </div>
+  </div>
+</section>
+
+
+<script src="assets/js/index/index.js"></script>
+
+</body>
+</html>

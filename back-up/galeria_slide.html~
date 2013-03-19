@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Componentes Web</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/respon.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+
+<!-- Menu -->
+<link type="text/css" rel="stylesheet" href="http://cdn.dcodes.net/2/menus/css3/css/dc_css3_menu.css" />
+
+</head>
+
+<body>
+<div class="body_pattern">
+  <div class="header_res">
+    <div class="main_resize">
+      <div class="logo"> <a href="index.html">Diego<span>Lirio</span></a> </div>      
+      <!-- /menu -->
+      <div class="clr"></div>
+    </div>
+    
+    <!--main_resize end  -->
+    
+    <div class="clr"></div>
+  </div>
+
+	    <!-- DC CSS Menu Start -->
+		<ul class="dc_css3_menu" style="width:100%;">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="#">Galeria</a>
+		    <ul>
+		      <li><a href="galeria_slide.html" class="documents">Slide</a></li>
+		      <li><a href="galeria_frame.html" class="messages">Frame</a></li>
+		      <li><a href="#" class="signout">Ligth Box</a></li>
+		    </ul>
+		  </li>
+		  <li><a href="#">Services</a></li>
+		  <li><a href="#">Portfolio</a>
+		    <ul>
+		      <li><a href="#" class="documents">Images</a></li>
+		      <li><a href="#" class="messages">Videos</a></li>
+		      <li><a href="#" class="signout">Streams</a></li>
+		    </ul>
+		  </li>
+		  <li><a href="#">Contact</a></li>
+		</ul>
+	     <!-- DC CSS Menu End -->
+  
+  <div class="main_resize" id="gallery">
+    <h1>Componentes Web<br />
+      <small>Componetes para internet.</small> </h1> 
+
+    <div class="clr"></div>
+    <div class="bg"></div>
+	
+	<h1>Galeria Slide</h1>
+	
+	<span class="title_comp">Cube One.</span>
+	<script type="text/javascript" src="Galeria/Slide/I/cube_one/js/swfobject/swfobject.js"></script>
+	<script type="text/javascript">
+			var flashvars = {};
+			flashvars.xml = "Galeria/Slide/I/cube_one/config.xml";
+			flashvars.font = "Galeria/Slide/I/cube_one/font.swf"; 
+			var attributes = {};
+			attributes.wmode = "transparent";
+			attributes.id = "slider";
+			swfobject.embedSWF("Galeria/Slide/I/cube_one/cu3er.swf", "cu3er-container", "960", "316", "9", "Galeria/Slide/I/cube_one/expressInstall.swf", flashvars, attributes);
+	</script>
+
+	  <div class="header_text_bg">    
+		  <div id="cu3er-container"> 
+			<a href="http://www.adobe.com/go/getflashplayer"> 
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /> 
+			</a> 
+		  </div>
+	  </div>	
+	
+	  <div class="clr"></div>
+      <div class="bg"></div>
+
+   <!-- Gallery Slide One. -->	  
+	 <span class="title_comp">Gallery Slide One.</span>
+	 <!-- head -->
+     <link rel="stylesheet" type="text/css" href="Galeria/Slide/I/gallery_slide_one/gallery_slide.css" />
+	 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
+	 <script type="text/javascript" src="gallery_slide_one/script.js"></script>	
+     <!-- body --> 		
+     <div id="gallery_slide_one">	      
+			<div id="slides_one">    
+				<div class="slide">
+					<!--<img src="img/carros/veloster_3.jpg" width="920" height="400" alt="side" />-->
+					<img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3.jpg" alt="side" />
+				</div>
+				<div class="slide">
+					<img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3_8.jpg" alt="side" />
+				</div>
+				<div class="slide">
+					<img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3_9.jpg" alt="side" />
+				</div>
+				<div class="slide">
+					<img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3_10.jpg" alt="side" />
+				</div>      
+			</div>
+     
+			<div id="menu_slide">    
+				<ul>
+					<li class="fbar">&nbsp;</li>
+					<li class="menuItem">
+						<a href=""><img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3.jpg" alt="thumbnail" /></a>
+					</li>
+					<li class="menuItem">
+						<a href=""><img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3_8.jpg" alt="thumbnail" /></a>
+					</li>
+					<li class="menuItem">
+						<a href=""><img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3_9.jpg" alt="thumbnail"/></a>
+					</li>
+					<li class="menuItem">
+						<a href=""><img src="Galeria/Slide/I/gallery_slide_one/img/carros/veloster_3_10.jpg" alt="thumbnail"/></a>
+					</li>
+				</ul>
+			</div>    
+	 </div>		
+   <!-- Fim Gallery Slide One. -->	 
+   
+     <div class="clr"></div>
+     <div class="bg"></div>
+	  
+	<!--	
+    <h2>Our Clients</h2>
+    <div class="clr"></div>
+    <a href="#"><img src="images/clients_1.png" alt="banner"  class="banner"  width="117" height="81" border="0" /></a> <a href="#"><img src="images/clients_2.png" alt="banner"  class="banner"  width="117" height="81" border="0" /></a> <a href="#"><img src="images/clients_3.png" alt="banner"  class="banner"  width="117" height="81" border="0" /></a> <a href="#"><img src="images/clients_4.png" alt="banner"  class="banner"  width="117" height="81" border="0" /></a> <a href="#"><img src="images/clients_5.png" alt="banner"  class="banner"  width="117" height="81" border="0" /></a> <a href="#"><img src="images/clients_6.png" alt="banner"  class="banner"  width="117" height="81" border="0" /></a>
+    <div class="clr"></div>
+    <div class="block_margin"></div>
+    <div class="clr"></div>
+	-->
+  </div>
+  
+  
+  <!--main_resize end  -->
+  
+  <div class="prefooter">
+    <div class="main_resize">
+      <div class="columns">
+        <div class="pref_blog">
+          <h2 class="not_font_color">Our Commitment</h2>
+          <p>We strive to deliver a level of service that exceeds the expectations of our customers. <br /><br />If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.</p>
+        </div>
+        <div class="pref_blog">
+          <h2 class="not_font_color">Latest Tweets</h2>
+
+<!-- DC Twitter Start -->
+<div id="ticker" class="query" style="width:100%;"></div>
+<!-- DC Twitter End -->
+
+        </div>
+        <div class="Flickr">
+				<h2 class="not_font_color">Keep Updated</h2>
+
+Subscribe to our mailing list for offers, news updates and more!<br />
+
+<!-- Mailing List Form -->
+<div id="mailform-subscribe">
+	<form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+
+		<input type="email" size="15" value="Your Email" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+		
+		<div id="mce-responses" class="clear">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>
+
+		<div class="clear">
+			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+		</div>
+	</form>
+</div>
+<!-- Mailing List Form End --> 
+
+          <div class="clr"></div>
+        </div>
+        <div class="pref_blog">
+          <h2 class="not_font_color">Stay Connected</h2>
+
+<!-- DC Facebook Likes Start -->
+<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/TemplateAccess&send=false&layout=standard&width=250&show_faces=false&action=like&colorscheme=dark&font&height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:35px;" allowTransparency="true"></iframe>
+<!-- DC Facebook Likes End -->
+<br />
+          <div class="clr" style="padding:0 0 10px 0;"></div>
+          <a href="#"><img src="images/f_1.png" alt="f" width="24" height="24" border="0" class="fgh" /></a> <a href="#"><img src="images/f_2.png" alt="f" width="24" height="24" border="0" class="fgh" /></a> <a href="#"><img src="images/f_3.png" alt="f" width="24" height="24" border="0" class="fgh" /></a> <a href="#"><img src="images/f_4.png" alt="f" width="24" height="24" border="0" class="fgh" /></a> <a href="#"><img src="images/f_5.png" alt="f" width="24" height="24" border="0" class="fgh" /></a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <!--main_resize end  -->
+    
+    <div class="clr"></div>
+  </div>
+  <div class="footer">
+    <div class="main_resize"> &copy; Copyright SiteName. All Rights Reserved. Design: [<a href="http://www.templateaccess.com/" target="_blank">ta</a>] </div>
+    
+    <!--main_resize end  -->
+    
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html>

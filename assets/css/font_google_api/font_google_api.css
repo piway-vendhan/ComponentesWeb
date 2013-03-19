@@ -1,0 +1,55 @@
+/*
+	Fonts
+*/
+
+h1.title_one {
+    font-size: 38px;
+    line-height: 1.5em;
+    color: #000000;
+    font-family: Indie Flower;
+    font-style: italic;
+    font-weight: bold;
+}
+h2.title_two {
+    font-size: 31px;
+    line-height: 1.5em;
+    color: #333333;
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: bold;
+}
+h3.title_trhee {
+    font-size: 23px;
+    line-height: 1.5em;
+    color: #555555;
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p.description_one {
+    font-size: 14px;
+    line-height: 1.58em;
+    color:777777;
+    font-family: Nobile;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p.description_two {
+    font-size: 16px;
+    line-height: 1.58em;
+    color:777777;
+    font-family: Nobile;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p.description_trhee {
+    font-size: 16px;
+    line-height: 1.58em;
+    color:777777;
+    font-family: Nobile;
+    font-style: normal;
+    font-weight: normal;
+}

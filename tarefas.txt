@@ -1,0 +1,33 @@
+- X. Criar layout em php.
+
+OK - 1. Mudar layout criar com bootstrap, cada componente tem sua pagina exclusiva
+
+2. Criar classes css:
+    - title_content
+    - description_title
+    - subtitle_content
+    - description_subtitle
+    - title_object
+    - description_object
+
+3. Colocar estrutura para utilizar componentes.
+   OK - uma descrição.
+   OK - estrutura utilizada.
+   OK    ----Galeria
+               |----Slider
+                       |-----I
+			     |----Cube_One
+				        |-----css
+						|----cub.css
+					        |----bla.css
+    OK - Um quadro com o codigo html.
+    OK - O quadro dentro de um menu estilo outlook.
+    - download do código, para utiliza-lo localmente (via ftp, arquivos zipados)
+    - modo para utiliza-lo no servidor (github.com/diegolirio)
+
+4. Na pagina index mostrar um pouco de cada conteúdo
+
+5. Cada classificação de componentes terá uma pagina para visualização do mesmo
+    tipo de classificação de componentes, ex: gallery_frame.html.
+    
+6. Alterar css de cada Componentes para não conter incompatibilidade com outros componentes web.
