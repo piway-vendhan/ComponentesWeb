@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="utf-8">
-	<title>Bootswatch: United</title>
+	<title>Bootswatch: United - Componentes Web - Asisco</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Ubuntu orange and unique font.">
 	<meta name="author" content="Thomas Park">
@@ -39,7 +39,6 @@
 
 	-->
 	<script type="text/javascript">
-
 	 var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-23019901-1']);
 	  _gaq.push(['_setDomainName', "bootswatch.com"]);
@@ -59,13 +58,16 @@
 
 	<?php 
 		include 'header.php'; 
-		getHeader("Blank");
+		getHeader("Asisco");
 	?>
 
 	<br/><br/>
 	
 	<div class="container">
-	    <h2 class="page-header">[ Blank ]</h2>
+	    <h2 class="page-header">First</h2>
+		<!-- Componentes -->
+				Aki Seu Componentes Web...
+		<!-- fim Componentes -->
 	</div>
 	
 	<?php include 'footer.php'; ?>

@@ -1,0 +1,39 @@
+/*** ESSENTIAL STYLES ***/
+
+.sf-menu,
+.sf-menu * { margin:0; padding:		0; list-style:		none; }
+.sf-menu { }
+.sf-menu ul { position:		absolute; top:			-999em; width:			14em; /* left offset of submenus need to match (see below) */ }
+.sf-menu ul li { width:			100%; }
+.sf-menu li:hover { visibility:		inherit; /* fixes IE7 'sticky bug' */ }
+.sf-menu li { float:			left; position:		relative; }
+.sf-menu a { display:		block; position:		relative; }
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul { left:			0; top:			1.5em; /* match top ul list item height */ z-index:		99; }
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul { top:			-999em; }
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul { left:			14.1em; /* match ul width */ top:			-0.7em; }
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul { top:			-999em; }
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul { left:			14.1em; /* match ul width */ top:			-0.7em; }
+/* NAVIGATION ------------------------------------------------------------*/
+nav { float: right; line-height: 1.8em; }
+nav a { text-decoration: none; color: #8e8e8e; }
+#nav { margin-top:1px; }
+#nav li { display: inline; font-size: 12px; float: left; text-transform:uppercase; }
+#nav>li>a { display: block; overflow: hidden; margin:0 3px 0 0; padding: 5px 10px; color: #8e8e8e;}
+#nav>li>a:hover,
+#nav>li.active>a { }
+#nav>li.active>a,
+#nav a:hover { color: #d54747; }
+#nav>li>a>.subheader { color: #a9a9a9; display: block; font-size: 11px; text-transform:uppercase; margin-top:10px; font-weight: lighter; }
+#nav .sf-sub-indicator { float: right; }
+#nav>li>a>.sf-sub-indicator { display: none; }
+/* sub navigation -----------------------------------------------------*/
+#nav>li ul { border-top:2px solid #d54747; display: block; margin-top:12px; background: #f9f9f9; }
+#nav>li ul li { border-bottom:1px solid #ececec;}
+#nav>li ul li a { background: url(../../images/ul_ul_li_a.png) 9px 18px no-repeat; display: block; padding: 10px 22px; font-size: 11px; color: #a9a9a9; text-decoration: none; }
+#nav>li ul li a span { display: block; }
+#nav>li ul li a:hover { border:none; background:#fff url(../../images/ul_ul_li_a.png) 9px 18px no-repeat; color: #333;  padding: 10px 22px; }

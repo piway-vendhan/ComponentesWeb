@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PRO Template</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+
+<script  src="superfish/js/superfish-1.4.8/js/hoverIntent.js"></script>
+<script  src="superfish/js/superfish-1.4.8/js/superfish.js"></script>
+<script  src="superfish/js/superfish-1.4.8/js/supersubs.js"></script>
+
+	<script type="text/javascript" src="js/jquery.tinycarousel.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#slider1').tinycarousel();
+			});
+	</script>
+<!-- END slider1 -->
+</head>
+<body>
+
+	<div class="dtcodes_main">
+    <a name="dcodes-flex-slider" id="dcodes-flex-slider"></a>
+    
+    <!-- DC Flex Slider CSS -->
+    <link rel="stylesheet" href="css/flex/flexslider.css" type="text/css" media="screen" />
+    
+    <!-- requires jquery library -->
+    
+    <!-- Modernizr --> 
+    <script src="js/flex/modernizr.js"></script> 
+    
+    <!-- DC Flex Slider JS --> 
+    <script defer src="js/flex/jquery.flexslider.js"></script> 
+    <!-- requires easing library -->
+    <script src="js/flex/jquery.easing.js"></script> 
+    <script src="js/flex/jquery.mousewheel.js"></script> 
+    
+    <!-- DC Flex Slider Start -->
+    <div id="dc_flex_container" role="dc_flex_container">
+    <section class="f_slider">
+    <div id="f_slider" class="flexslider">
+    <ul class="fslides">
+    <li> <img src="http://pimg.co/p/800x500/111/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/222/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/333/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/444/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/555/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/666/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/777/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/888/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/999/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/888/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/777/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/800x500/666/fff/img.png" /> </li>
+    </ul>
+    </div>
+    <div id="flex_carousel" class="flexslider">
+    <ul class="fslides">
+    <li> <img src="http://pimg.co/p/400x250/111/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/222/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/333/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/444/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/555/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/666/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/777/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/888/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/999/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/888/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/777/fff/img.png" /> </li>
+    <li> <img src="http://pimg.co/p/400x250/666/fff/img.png" /> </li>
+    </ul>
+    </div>
+    </section>
+    </div>
+    <!-- DC Flex Slider End --> 
+    <div class="dc_clear"></div> <!-- line break/clear line -->
+    
+    <!-- DC Flex Slider Settings --> 
+    <script type="text/javascript">
+    
+    $(window).load(function(){
+    // Thumbnail Carousel
+    $('#flex_carousel').flexslider({
+    animation: "slide",
+    controlNav: true,								// Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+    animationLoop: true,						// Should the animation loop? If false, directionNav will received "disable" classes at either end
+    slideshow: false,								// Animate slider automatically
+    startAt: 0,                     // The slide that the slider should start on. Array notation (0 = first slide)
+    touch: true,                    // Allow touch swipe navigation of the slider on touch-enabled devices
+    video: false,                   // if using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches        
+    itemWidth: 140,									// Box-model width of individual carousel items, including horizontal borders and padding.
+    itemMargin: 5,									// Margin between carousel items.
+    asNavFor: '#f_slider'						// Internal property exposed for turning the slider into a thumbnail navigation for another slider
+    });
+    
+    $('#f_slider').flexslider({
+        // Banner Slider
+    animation: "slide",
+    controlNav: false,						 // Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+    animationLoop: false,					 // Should the animation loop? If false, directionNav will received "disable" classes at either end
+    slideshow: true,               // Animate slider automatically
+    slideshowSpeed: 4000,          // Set the speed of the slideshow cycling, in milliseconds
+    animationSpeed: 600,           // Set the speed of animations, in milliseconds        
+    smoothHeight: true,            // Allow height of the slider to animate smoothly in horizontal mode
+    sync: "#flex_carousel",				 // Mirror the actions performed on this slider with another slider. Use with care.
+    start: function(slider){
+    $('body').removeClass('loading');
+    }
+    });
+    });
+    </script>
+    
+    
+    
+    </div>
+
+
+</body>
+</html>

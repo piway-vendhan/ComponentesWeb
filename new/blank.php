@@ -66,6 +66,9 @@
 	
 	<div class="container">
 	    <h2 class="page-header">[ Blank ]</h2>
+		<!-- Componentes -->
+				Aki Seu Componentes Web...
+		<!-- fim Componentes -->
 	</div>
 	
 	<?php include 'footer.php'; ?>
