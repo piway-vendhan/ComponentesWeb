@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="gallery/slide/asisco/carousel/css/carousel.css" type="text/css" media="screen" /> 
+
+<script type="text/javascript" src="gallery/slide/asisco/carousel/js/jquery.v1.4.2.js"></script>
+<script type="text/javascript" src="gallery/slide/asisco/carousel/js/zoomslide.js"></script>
+
+
+<script type="text/javascript"> 
+$(function(){
+	$('#carousel').infiniteCarousel({
+		displayTime: 3000, // number of ms before next slide (3000 = 3 seconds)
+		transitionSpeed: 250,
+		textholderHeight : .25,	
+		displayThumbnailBackground: 0,
+		displayProgressBar : 1
+	});
+});
+</script>	
+
+<body style="background-color:#1C1C1C;">
+	<div id="carousel-wrapper"></div>
+    <!--HIDES THE SCROLLBAR-->
+    <div id="nobar">
+      <!--Center section of carousel displaying main item-->
+      <div id="carousel-holder">
+        <div id="carousel">
+          <ul>
+            <!-- If user wants to pull posts from a category for the slider do this stuff -->
+            <li> <img src="gallery/slide/asisco/carousel/images/simple_img_1.jpg" width="960" height="400" alt="simple_img"/></li>
+            <li> <img src="gallery/slide/asisco/carousel/images/simple_img_2.jpg" width="960" height="400" alt="simple_img"/></li>
+            <li> <img src="gallery/slide/asisco/carousel/images/simple_img_3.jpg" width="960" height="400" alt="simple_img"/></li>
+            <li> <img src="gallery/slide/asisco/carousel/images/simple_img_4.jpg" width="960" height="400" alt="simple_img"/></li>
+            <li> <img src="gallery/slide/asisco/carousel/images/simple_img_5.jpg" width="960" height="400" alt="simple_img"/></li>
+            <!-- If user wants to define specific content in the slider do this stuff -->
+          </ul>          
+        </div>
+      </div>
+    </div>
+    <!--END nobar-->  
+</body>	

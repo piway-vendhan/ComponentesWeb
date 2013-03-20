@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Revolution: Gallery Slide - Componentes Web - Asisco</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Ubuntu orange and unique font.">
+	<meta name="author" content="Thomas Park">
+
+	<?php include 'style.php'; ?>
+	
+	<link href="bootstrap/bootswatch.css" rel="stylesheet"> 
+	<link href="bootstrap/bootstrap-responsive.min.css" rel="stylesheet">        	
+	
+	<script src="bootstrap/jquery.min.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<script src="bootstrap/bootswatch.js"></script>
+	<script src="bootstrap/jquery.smooth-scroll.min.js"></script>
+	
+	<script type="text/javascript">
+
+	 var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-23019901-1']);
+	  _gaq.push(['_setDomainName', "bootswatch.com"]);
+		_gaq.push(['_setAllowLinker', true]);
+	  _gaq.push(['_trackPageview']);
+
+	 (function() {
+	   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	 })();
+
+	</script>
+</head>
+<!-- class="index" id="top" -->
+<body data-spy="scroll" data-target=".bs-docs-sidebar"> 
+
+	<?php 
+		include 'header.php'; 
+		getHeader("Gallery Slide");
+	?>
+
+	<br/><br/>
+	
+	<div class="container">
+	    <h2 class="page-header">Revolution</h2> 
+		  <!-- Componente -->
+					<script src="gallery/slide/asisco/wanda/jquery-1.7.2.min.js"></script>
+					<link rel="stylesheet" type="text/css" href="gallery/slide/asisco/wanda/revolution_3/js/revolution/css/responsive.css" media="screen" />
+					<link rel="stylesheet" type="text/css" href="gallery/slide/asisco/wanda/revolution_3/js/revolution/rs-plugin/css/settings.css" media="screen" />
+					<script type="text/javascript" src="gallery/slide/asisco/wanda/revolution_3/js/revolution/rs-plugin/js/jquery.templateaccess.plugins.min.js"></script>
+					<script type="text/javascript" src="gallery/slide/asisco/wanda/revolution_3/js/revolution/rs-plugin/js/jquery.templateaccess.revolution.js"></script>
+
+					<script type="text/javascript">
+
+					var tpj=jQuery;
+					//tpj.noConflict();
+
+					tpj(document).ready(function() {
+
+						if (tpj.fn.cssOriginal!=undefined)
+							tpj.fn.css = tpj.fn.cssOriginal;
+
+						tpj('.rev_banner').revolution(
+							{
+								delay:6000,
+								startheight:490,
+								startwidth:890,
+
+								hideThumbs:200,
+
+								thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+								thumbHeight:50,
+								thumbAmount:5,
+
+								navigationType:"bullet",					//bullet, thumb, none, both		(No Thumbs In FullWidth Version !)
+								navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+								navigationStyle:"navbar",				//round,square,navbar
+
+								touchenabled:"on",						// Enable Swipe Function : on/off
+								onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+								navOffsetHorizontal:0,
+								navOffsetVertical:20,
+
+								shadow:1,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+								fullWidth:"off",							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+
+								stopLoop:"off"							// on == Stop loop at the last Slie,  off== Loop all the time.
+							});
+
+						});
+
+					</script>
+		 
+					<!-- body -->
+			 
+					<div class="rev_bannercontainer">
+						<div class="rev_banner">
+						<ul>
+						  
+						  <!-- slide 1 -->
+						  <li data-transition="curtain-3" data-slotamount="5"  data-masterspeed="300" data-thumb="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb1.jpg" > <img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide1_a.jpg">
+							<div class="caption sfb" data-x="490" data-y="40" data-speed="6900" data-start="500" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish1.png"></div>
+							<div class="caption sfb" data-x="450" data-y="70" data-speed="7900" data-start="900" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish1.png"></div>
+							<div class="caption sfb" data-x="550" data-y="70" data-speed="8900" data-start="1200" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish1.png"></div>
+							<div class="caption lfr" data-x="550" data-y="120" data-speed="3700" data-start="800" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish2.png"></div>
+							<div class="caption lfr" data-x="620" data-y="240" data-speed="4700" data-start="1000" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish3.png"></div>
+							<div class="caption lfr" data-x="490" data-y="200" data-speed="2700" data-start="800" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish4.png"></div>
+							<div class="caption lfr" data-x="660" data-y="50" data-speed="8700" data-start="800" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish5.png"></div>
+							<div class="caption lfr" data-x="377" data-y="290" data-speed="2700" data-start="800" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/fish6.png"></div>
+							<div class="caption lfb big_white"  data-x="50" data-y="47" data-speed="900" data-start="1700" data-easing="easeOutBack" style="padding:15px;"> Revolution Slider</div>
+							<div class="caption lft big_white"  data-x="50" data-y="119" data-speed="900" data-start="1900" data-easing="easeOutBack" style="padding:9px;">World's <span style="font-weight:normal;">#1</span><em> Parallax Slider</em></div>
+							<div class="caption lfr medium_grey"  data-x="60" data-y="190" data-speed="300" data-start="2500" data-easing="easeOutExpo">Unlimited Transitions</div>
+							<div class="caption sfl" data-x="60" data-y="230" data-speed="300" data-start="2600" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/check.png"></div>
+							<div class="caption lfr small_text"  data-x="120" data-y="228" data-speed="300" data-start="2600" data-easing="easeOutExpo">Sliding, Fading, Slots, Box Transitions<br/>
+							  <span style="color: #ccc;">SLIDER REVOLUTION</span> has it all!</div>
+							<div class="caption sfl" data-x="60" data-y="280" data-speed="300" data-start="2900" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/check.png"></div>
+							<div class="caption lfr small_text"  data-x="120" data-y="287" data-speed="300" data-start="2900" data-easing="easeOutExpo">Responsive & Mobile Optimized</div>
+							<div class="caption sfl" data-x="60" data-y="330" data-speed="300" data-start="3200" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/check.png"></div>
+							<div class="caption lfr small_text"  data-x="120" data-y="328" data-speed="300" data-start="3200" data-easing="easeOutExpo">Customizable Navigation<br/>
+							  Arrows, Bullets, Thumbs</div>
+							<div class="caption sfb" data-x="55" data-y="380" data-speed="1000" data-start="3500" data-easing="easeOutBack"><a href="http://www.dcodes.net/" target="_blank" class="button blue small">More Details</a></div>
+						  </li>
+						  
+						  <!-- slide 2 -->
+						  <li data-transition="boxfade" data-slotamount="12"  data-masterspeed="300"  data-link="http://www.nasa.gov" title="Visit NASA Website" data-thumb="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb2.jpg"> <img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_a.jpg"  >
+							<div class="caption lft big_white"  data-x="350" data-y="80" data-speed="900" data-start="1200" data-easing="easeOutBack">The Planets</div>
+							<div class="caption sfl" data-x="-270" data-y="0" data-speed="700" data-start="1700" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_b.gif"></div>
+							<div class="caption sfb" data-x="160" data-y="210" data-speed="800" data-start="1200" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_c.png"></div>
+							<div class="caption sfb" data-x="210" data-y="215" data-speed="900" data-start="1300" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_d.png"></div>
+							<div class="caption sfb" data-x="290" data-y="220" data-speed="1000" data-start="1400" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_e.png"></div>
+							<div class="caption sfb" data-x="370" data-y="240" data-speed="1100" data-start="1500" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_f.png"></div>
+							<div class="caption sfb" data-x="410" data-y="230" data-speed="1200" data-start="1600" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_g.png"></div>
+							<div class="caption sfb" data-x="540" data-y="225" data-speed="1300" data-start="1700" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_h.png"></div>
+							<div class="caption sfb" data-x="700" data-y="210" data-speed="1400" data-start="1800" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_i.png"></div>
+							<div class="caption sfb" data-x="760" data-y="200" data-speed="1500" data-start="1900" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_j.png"></div>
+							<div class="caption sfb" data-x="825" data-y="190" data-speed="1600" data-start="2000" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide2_k.png"></div>
+							<div class="caption sfb small_text" style="padding:8px;"  data-x="350" data-y="120" data-speed="300" data-start="2600" data-easing="easeOutExpo">The Amazing Solar System</div>
+						  </li>
+						  
+						  <!-- slide 3 -->
+						  <li data-transition="slotfade-horizontal" data-slotamount="1" data-masterspeed="300"  data-thumb="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb3.jpg"> <img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide3_a.jpg"  >
+							<div class="caption sfb" data-x="340" data-y="30" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide3_b.png"></div>
+							<div class="caption lfl" data-x="290" data-y="160" data-speed="700" data-start="800" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide3_c.png"></div>
+							<div class="caption sfb" data-x="470" data-y="300" data-speed="700" data-start="1200" data-easing="easeOutExpo"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide3_d.png"></div>
+							<div class="caption sfb medium_grey" style="padding:8px;"  data-x="40" data-y="320" data-speed="300" data-start="1800" data-easing="easeOutExpo">100% Responsive</div>
+							<div class="caption lfl very_big_white"  data-x="40" data-y="50" data-speed="300" data-start="1200" data-easing="easeOutExpo" style="padding:9px;">PC</div>
+							<div class="caption lfl very_big_white"  data-x="40" data-y="140" data-speed="300" data-start="1300" data-easing="easeOutExpo" style="padding:9px;">Tablet</div>
+							<div class="caption lfl very_big_white"  data-x="40" data-y="230" data-speed="300" data-start="1400" data-easing="easeOutExpo" style="padding:9px;">Mobile</div>
+							<div class="caption lfb medium_grey"  data-x="40" data-y="400" data-speed="300" data-start="1500" data-easing="easeOutExpo" style="padding:9px;"><a href="#">Signup Now</a></div>
+						  </li>
+						  
+						  <!-- slide 4 -->
+						  <li data-transition="slideup" data-slotamount="20" data-masterspeed="300" data-delay="10000" data-thumb="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb5.jpg"> <img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide4_a.jpg"  >
+							<div class="caption lfb boxshadow" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack">
+							  <iframe src="http://player.vimeo.com/video/49224248?title=0&amp;byline=0&amp;portrait=0;api=1" width="460" height="259"></iframe>
+							</div>
+							<div class="caption sft big_black"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Video Support</div>
+							<div class="caption sft big_white"  data-x="550" data-y="157" data-speed="300" data-start="1300" data-easing="easeOutExpo">Vimeo Example</div>
+							<div class="caption lfb medium_grey"  data-x="550" data-y="210" data-speed="300" data-start="1400" data-easing="easeOutExpo">You can easily add</div>
+							<div class="caption lfb medium_grey"  data-x="550" data-y="234" data-speed="300" data-start="1500" data-easing="easeOutExpo">Vimeo Videos</div>
+							<div class="caption lfb medium_grey"  data-x="550" data-y="258" data-speed="300" data-start="1600" data-easing="easeOutExpo">to your Slides</div>
+							<div class="caption sfb" data-x="0" data-y="0" data-speed="300" data-start="200" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/vimeo.jpg"></div>
+						  </li>
+						  
+						  <!-- slide 5 -->
+						  <li data-transition="slidedown" data-slotamount="14"  data-masterspeed="300" data-delay="10000" data-thumb="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/thumbs/regular_thumb6.jpg"> <img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/slide5_a.jpg"  >
+							<div class="caption lft boxshadow" data-x="70" data-y="120" data-speed="900" data-start="500" data-easing="easeOutBack">
+							  <iframe src="http://www.youtube.com/embed/JYKpIr1lSG0?hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0" width="460" height="259"></iframe>
+							</div>
+							<div class="caption sft big_black"  data-x="550" data-y="120" data-speed="300" data-start="1200" data-easing="easeOutExpo">Video Support</div>
+							<div class="caption sft big_white"  data-x="550" data-y="157" data-speed="300" data-start="1300" data-easing="easeOutExpo">Youtube Example</div>
+							<div class="caption lfb medium_grey"  data-x="550" data-y="210" data-speed="300" data-start="1400" data-easing="easeOutExpo">You can easily add</div>
+							<div class="caption lfb medium_grey"  data-x="550" data-y="234" data-speed="300" data-start="1500" data-easing="easeOutExpo">Youtube Videos</div>
+							<div class="caption lfb medium_grey"  data-x="550" data-y="258" data-speed="300" data-start="1600" data-easing="easeOutExpo">to your Slides</div>
+							<div class="caption sfb" data-x="0" data-y="0" data-speed="300" data-start="200" data-easing="easeOutBack"><img src="gallery/slide/asisco/wanda/revolution_3/js/revolution/images/youtube.png"></div>
+						  </li>
+						</ul>
+					<div class="tp-bannertimer"></div>
+				  </div> <!-- /rev_banner -->
+				</div> 
+	   <!-- Fim Componente -->
+				  
+				  <br/>
+				  <p>
+					 <a href="gallery_slide-revolution_3_2-only.html" class="btn btn-primary">Only</a>
+					 <a href="gallery_slide-revolution_3.php" class="btn">Ver outro exemplo</a>
+					 <a href="#" class="btn">Download</a>
+				  </p>  		
+	</div>
+	
+	<?php include 'footer.php'; ?>
+	
+	
+</body>
+</html>

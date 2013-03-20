@@ -23,6 +23,10 @@
 						<li class="nav-header">Slide</li>
 						<li><a href="gallery_slide-cube_one.php">Cube One</a></li>
 						<li><a href="gallery_slide-camera.php">Camera</a></li>
+						<li><a href="gallery_slide-carousel.php">Carousel</a></li>
+						<li><a href="gallery_slide-gallery_slide_one.php">Gallery Slide One</a></li>	
+						<li><a href="gallery_slide-kenburns_panel.php">Kenburns Panel</a></li> 	
+						<li><a href="gallery_slide-revolution_3.php">Revolution</a></li> 	
 				   </ul> 
 			    </li>				
 			    <li><a onclick="pageTracker._link(this.href); return false;" href="http://news.bootswatch.com">News</a></li>

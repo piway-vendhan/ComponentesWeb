@@ -1,22 +1,17 @@
 
 	<?php 
-		include 'menu_top.php';
- 
+		include 'menu_top.php'; 
 		function getHeader($grupo) {
-	?>
-		
-			<div style="padding: 80px 0;" class="jumbotron masthead" id="overview"> <!-- masthead -->
-			  <div class="container">
-				<h2>Componentes Web / <span style="font-size: 20px;"><?php echo $grupo; ?></span></h2>
-				<p>Sleek, intuitive, and powerful front-end framework for faster and easier web development.</p>
-			  </div>
-			</div>		
+	?>		
+		<div style="padding: 80px 0;" class="jumbotron masthead" id="overview"> <!-- masthead -->
+		  <div class="container">
+			<h2>Componentes Web / <span style="font-size: 20px;"><?php echo $grupo; ?></span></h2>
+			<p>Desenvolvimento em html, css, javascript e jquery.</p>
+		  </div>
+		</div>		
 	<?php 	
 		}		
 	?>
-	
-	 
-	 
 	 
 	 <!--
 	<div class="hero-unit">

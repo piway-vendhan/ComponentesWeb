@@ -2,8 +2,9 @@ OK --- Baixar todos os Bootswatch.
 Ok --- Baixar FortAwesome.
 --- Criar arquivos em php.
 
-
+-- Pegar Componente Web Slide de esteticar e Colocar como "ver outro exemplo" no "Cube_One"
+-- Pegar o Componente de gallery slide de detalhes de veiculos da versatti. 
 
 
 --- Mudar de stilo utilizando um xml que mantem a pasta do stilo css.
---- Criar Bootstrap asisco.
+--- Criar Bootstrap 1º)asisco - 2º) Versatti - 3º) Qualityago - 4º)Transp.

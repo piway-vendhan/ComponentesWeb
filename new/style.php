@@ -1,6 +1,6 @@
 
-	<!-- Bootswatch: Amelia | Cerulean | United | Cosmo | Cyborg | Journal | Readable | Simplex | Slate | Spacelab | Spruce | Superhero | United -->
+	<!-- Bootswatch: Amelia | Cerulean | Cosmo | Cyborg | Journal | Readable | Simplex | Slate | Spacelab | Spruce | Superhero | United -->
 	<!-- FortAwesome -->
 	<!-- Darkstrap -->
-	<link href="bootstrap/FortAwesome/bootstrap.min.css" rel="stylesheet"> 
-	<link href="bootstrap/FortAwesome/bootstrap.css" rel="stylesheet"> 
+	<link href="bootstrap/Readable/bootstrap.min.css" rel="stylesheet"> 
+	<link href="bootstrap/Readable/bootstrap.css" rel="stylesheet"> 
