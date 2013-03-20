@@ -9,40 +9,53 @@
 			 <span class="icon-bar"></span>
 			 <span class="icon-bar"></span>
 		   </a>
-		   <a class="brand" href="../">Bootswatch</a>
+		   <a class="brand" href="index.php">Asisco</a>
 		   <div class="nav-collapse collapse" id="main-menu">
 			<ul class="nav" id="main-menu-left">
-			  <li><a onclick="pageTracker._link(this.href); return false;" href="http://news.bootswatch.com">News</a></li>
-			  <li><a id="swatch-link" href="../#gallery">Gallery</a></li>
-			  <li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Preview <b class="caret"></b></a>
-				<ul class="dropdown-menu" id="swatch-menu">
-				  <li><a href="../default">Default</a></li>
-				  <li class="divider"></li>
-				  <li><a href="../amelia">Amelia</a></li>
-				  <li><a href="../cerulean">Cerulean</a></li>
-				  <li><a href="../cosmo">Cosmo</a></li>
-				  <li><a href="../cyborg">Cyborg</a></li>
-				  <li><a href="../journal">Journal</a></li>
-				  <li><a href="../readable">Readable</a></li>
-				  <li><a href="../simplex">Simplex</a></li>
-				  <li><a href="../slate">Slate</a></li>
-				  <li><a href="../spacelab">Spacelab</a></li>
-				  <li><a href="../spruce">Spruce</a></li>
-				  <li><a href="../superhero">Superhero</a></li>
-				  <li><a href="../united">United</a></li>
-				</ul>
-			  </li>
-			  <li class="dropdown" id="preview-menu">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Download <b class="caret"></b></a>
-				<ul class="dropdown-menu">
-				  <li><a target="_blank" href="bootstrap.min.css">bootstrap.min.css</a></li>
-				  <li><a target="_blank" href="bootstrap.css">bootstrap.css</a></li>
-				  <li class="divider"></li>
-				  <li><a target="_blank" href="variables.less">variables.less</a></li>
-				  <li><a target="_blank" href="bootswatch.less">bootswatch.less</a></li>
-				</ul>
-			  </li>
+			    <li class="dropdown">
+				   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery<b class="caret"></b></a>
+				   <ul class="dropdown-menu" id="swatch-menu">
+					    <li class="nav-header">Frame</li>
+					    <li><a href="gallery_frame-hoverbox_image_gallery.php">Hoverbox Image Gallery</a></li>
+					    <li><a href="gallery_frame-variable_image_frames.php">Variable Image Frames</a></li>
+						<li class="nav-header">Ligthbox</li>
+						<li><a href="gallery_lightbox-ligthbox_display.php">Lightbox Display</a></li>					    
+						<li class="nav-header">Slide</li>
+						<li><a href="gallery_slide-cube_one.php">Cube One</a></li>
+						<li><a href="gallery_slide-camera.php">Camera</a></li>
+				   </ul> 
+			    </li>				
+			    <li><a onclick="pageTracker._link(this.href); return false;" href="http://news.bootswatch.com">News</a></li>
+			    <li><a id="swatch-link" href="../#gallery">Gallery</a></li>
+			    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Style<b class="caret"></b></a>
+					<ul class="dropdown-menu" id="swatch-menu">
+					  <li><a href="../default">Default</a></li>
+					  <li class="divider"></li>
+					  <li><a href="../amelia">Amelia</a></li>
+					  <li><a href="../cerulean">Cerulean</a></li>
+					  <li><a href="../cosmo">Cosmo</a></li>
+					  <li><a href="../cyborg">Cyborg</a></li>
+					  <li><a href="../journal">Journal</a></li>
+					  <li><a href="../readable">Readable</a></li>
+					  <li><a href="../simplex">Simplex</a></li>
+					  <li><a href="../slate">Slate</a></li>
+					  <li><a href="../spacelab">Spacelab</a></li>
+					  <li><a href="../spruce">Spruce</a></li>
+					  <li><a href="../superhero">Superhero</a></li>
+					  <li><a href="../united">United</a></li>
+					</ul>
+			    </li>
+			    <li class="dropdown" id="preview-menu">
+				   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Download <b class="caret"></b></a>
+				   <ul class="dropdown-menu">
+						<li><a target="_blank" href="bootstrap.min.css">bootstrap.min.css</a></li>
+						<li><a target="_blank" href="bootstrap.css">bootstrap.css</a></li>
+						<li class="divider"></li>
+						<li><a target="_blank" href="variables.less">variables.less</a></li>
+						<li><a target="_blank" href="bootswatch.less">bootswatch.less</a></li>
+				   </ul>
+				</li>
 			</ul>
 			<ul class="nav pull-right" id="main-menu-right">
 			  <li><a rel="tooltip" target="_blank" href="http://builtwithbootstrap.com/" title="Showcase of Bootstrap sites &amp; apps" onclick="_gaq.push(['_trackEvent', 'click', 'outbound', 'builtwithbootstrap']);">Built With Bootstrap <i class="icon-share-alt"></i></a></li>
