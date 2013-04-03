@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<title>Bootswatch: United - Componentes Web - Asisco</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Ubuntu orange and unique font.">
-	<meta name="author" content="Thomas Park">
+	<meta name="description" content="Componentes Web - Asisco.">
+	<meta name="author" content="Diego Lirio">
 
 	<!--[if lt IE 9]>
 	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

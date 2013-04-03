@@ -30,6 +30,8 @@
 						<li><a href="gallery_slide-showcase.php">Showcase</a></li> 	
 						<li><a href="gallery_slide-slodorion.php">Slodorion</a></li> 
 						<li><a href="gallery_slide-superfish.php">Superfish</a></li> 
+						<li><a href="gallery_slide-responsive_grid.php">Responsive Grid</a></li> 
+						
 				   </ul> 
 			    </li>				
 			    <li class="dropdown">
