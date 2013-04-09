@@ -132,7 +132,7 @@
 		
 		<p>
 		   <a href="gallery_lightbox-ligthbox_display-only.html" target="_blank" class="btn btn-primary">Only</a>
-		   <a href="#" class="btn">Download</a> 
+		   <a href="download/gallery_lightbox-ligthbox_display-only.zip" class="btn">Download</a> 
 		</p>		
 	    
 	</div>
