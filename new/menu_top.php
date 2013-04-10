@@ -48,8 +48,8 @@
 					<ul class="dropdown-menu" id="swatch-menu">
 					  <li><a href="#">Default</a></li>
 					  <li class="divider"></li>
+					  <li><a href="javascript:onclick(window.location.reload());">Amelia</a></li>
 					  <!--
-					  <li><a href="../amelia">Amelia</a></li>
 					  <li><a href="../cerulean">Cerulean</a></li>
 					  <li><a href="../cosmo">Cosmo</a></li>
 					  <li><a href="../cyborg">Cyborg</a></li>

@@ -67,7 +67,7 @@
 		  <!-- Fim Cube One -->		    
 		  <p>
 			<a href="gallery_slide-cube_one-only.html" target="_blank" class="btn">Only</a>
-			<a href="#" class="btn btn-danger">Download</a> 
+			<a href="#" class="btn btn-primary">Download</a> 
 		  </p>
 	</div>
 	
