@@ -67,10 +67,28 @@
 	<div class="container">
 	    <h2 class="page-header">Facebook</h2>
 		<!-- Componentes -->
-				Compartilhar esta pagina <br/>
-				<a href="http://facebook.com/share.php?t=Componentes%20Web%20-%20Asisco&u=http://asisco.com.br" target="_blank">
-					<img src="social/facebook_32.png"/>
-				</a>
+				<div class="row">
+					<h4 class="text-info">Compartilhar esta pagina no facebook</h4>
+					<div class="span3">
+						Nova guia<br/>
+						<a href="http://facebook.com/share.php?t=Componentes%20Web%20-%20Asisco&u=http://asisco.com.br" target="_blank">
+							<img src="social/facebook_32.png"/>
+						</a>
+					</div>
+					<div class="span3">
+						Nova janela<br/>
+						<a href="javascript:onclick(window.open('http://facebook.com/share.php?t=Componentes%20Web%20-%20Asisco&u=http://asisco.com.br', '', 'height=380, width=500, top=150, left=300, scrollbars=no, resizable=no'));">
+							<img src="social/facebook_32.png"/>
+						</a>				
+					</div>
+					<div class="span3">
+						Nova janela<br/>
+						<a href="http://facebook.com/share.php?t=Componentes%20Web%20-%20Asisco&u=http://asisco.com.br" onclick="window.open(this.href, 'Compartilhar no facebook', 'height=380, width=500, top=150, left=250, scrollbars=no, resizable=no');return false">
+							<img src="social/facebook_32.png"/>
+						</a>				
+					</div>					
+				</div>
+				
 		<!-- fim Componentes -->
 	</div>
 	

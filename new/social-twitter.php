@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="utf-8">
-	<title>Facebook: Social - Componentes Web - Asisco</title>
+	<title>Twitter: Social - Componentes Web - Asisco</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Componentes Web - Asisco.">
 	<meta name="author" content="Diego Lirio">
@@ -67,10 +67,23 @@
 	<div class="container">
 	    <h2 class="page-header">Twitter</h2>
 		<!-- Componentes -->
-				Compartilhar esta pagina no twitter <br/>
-				<a href="http://twitter.com/home?status=Componentes%20Web%20-%20Asisco:%20http://asisco.com.br" target="_blank">
-					<img src="social/twitter_logo.png"/>
-				</a>
+			<div class="row">
+				<h4 class="text-info">Compartilhar esta pagina no twitter</h4>
+				<div class="span3">
+					nova guia<br/>
+					<a href="http://twitter.com/home?status=Componentes%20Web%20-%20Asisco:%20http://asisco.com.br" target="_blank">
+						<img src="social/twitter_logo.png"/>
+					</a>
+				</div>
+				<div class="span3">
+					nova janela<br/>
+					<a href="javascript:onclick(window.open('http://twitter.com/home?status=Componentes%20Web%20-%20Asisco:%20http://asisco.com.br', '', 'height=380, width=500, top=150, left=150, scrollbars=no, resizable=no'));">
+						<img src="social/twitter_logo.png"/>
+					</a>				
+				</div>
+			</div>				
+				
+				
 		<!-- fim Componentes --> 
 	</div>
 	
