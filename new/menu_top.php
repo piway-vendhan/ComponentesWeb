@@ -30,8 +30,7 @@
 						<li><a href="gallery_slide-showcase.php">Showcase</a></li> 	
 						<li><a href="gallery_slide-slodorion.php">Slodorion</a></li> 
 						<li><a href="gallery_slide-superfish.php">Superfish</a></li> 
-						<li><a href="gallery_slide-responsive_grid.php">Responsive Grid</a></li> 
-						
+						<li><a href="gallery_slide-responsive_grid.php">Responsive Grid</a></li> 						
 				   </ul> 
 			    </li>				
 			    <li class="dropdown">
@@ -41,6 +40,13 @@
 					  <li><a href="http://cssfontstack.com/" target="_blank">Css Fonts Stack</a></li>
 					</ul>
 				</li>
+			    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Social<b class="caret"></b></a>
+					<ul class="dropdown-menu" id="swatch-menu">
+					  <li><a href="social-facebook.php" target="_blank">Facebook</a></li>
+					  <li><a href="social-twitter.php" target="_blank">Twitter</a></li>
+					</ul>
+				</li>				
 			    <!--<li><a onclick="pageTracker._link(this.href); return false;" href="http://news.bootswatch.com">News</a></li>-->
 				<!--<li><a id="swatch-link" href="../#gallery">Gallery</a></li>-->
 			    <li class="dropdown">
