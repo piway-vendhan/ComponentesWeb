@@ -64,29 +64,102 @@
 
 	<br/><br/>
 	
+
+
 	<div class="container">
 	    <h2 class="page-header">Twitter</h2>
 		<!-- Componentes -->
-			<div class="row">
-				<h4 class="text-info">Compartilhar esta pagina no twitter</h4>
+			<div class="row">		
+				<h4 class="text-error">Compartilhar esta pagina no twitter</h4>		
 				<div class="span3">
-					nova guia<br/>
+					<p class="text-info">Nova guia</p>
 					<a href="http://twitter.com/home?status=Componentes%20Web%20-%20Asisco:%20http://asisco.com.br" target="_blank">
 						<img src="social/twitter_logo.png"/>
 					</a>
 				</div>
 				<div class="span3">
-					nova janela<br/>
+					<p class="text-info">Nova janela</p>
 					<a href="javascript:onclick(window.open('http://twitter.com/home?status=Componentes%20Web%20-%20Asisco:%20http://asisco.com.br', '', 'height=380, width=500, top=150, left=150, scrollbars=no, resizable=no'));">
 						<img src="social/twitter_logo.png"/>
 					</a>				
 				</div>
-			</div>				
-				
+			</div>
+			<br/><br/><br/>
+			<div class="row">		
+				<p class="text-info">Compartilhar um link</p>
+				<div class="span3">					
+					<a href="https://twitter.com/share" 
+					   class="twitter-share-button" 
+					   data-via="asiscoweb	" 
+					   data-size="large" 
+					   data-related="diegolirio" 
+					   data-hashtags="componentesweb">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+				<div class="span3">
+					<a href="https://twitter.com/share" 
+					   class="twitter-share-button" 
+					   data-via="asiscoweb" 
+					   data-related="diegolirio" 
+					   data-count="none" 
+					   data-hashtags="componentesweb">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+			</div>
+			<br/><br/><br/>
+			<div class="row">
+				<p class="text-info">Seguir</p>
+				<div class="span3">
+					<a href="https://twitter.com/asiscoweb" 
+					   class="twitter-follow-button" 
+					   data-show-count="false" 
+					   data-lang="pt" 
+					   data-size="large">Seguir @asiscoweb</a>
+					   
+					<script>!function(d,s,id){ 
+						var js,fjs = d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+						if(!d.getElementById(id)) { 
+							js = d.createElement(s);
+							js.id = id;
+							js.src = p+'://platform.twitter.com/widgets.js';
+							fjs.parentNode.insertBefore(js,fjs);
+						}}(document, 'script', 'twitter-wjs');
+					</script>
+				</div>
+				<div class="span3">
+					<a href="https://twitter.com/asiscoweb" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-show-screen-name="false">Seguir @asiscoweb</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+			</div>
+			<br/><br/><br/>
+			<div class="row">
+				<p class="text-info">Marcador</p>
+				<div class="span3">
+					<a href="https://twitter.com/intent/tweet?button_hashtag=sistemaprime&text=Sistema%20de%20Informa%C3%A7%C3%A3o%20pela%20web..." class="twitter-hashtag-button" data-lang="pt" data-size="large" data-related="fabiano_goes,diegolirio" data-url="http://prime.asisco.com.br">Tweet #sistemaprime</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+				<div class="span3">
+					<a href="https://twitter.com/intent/tweet?button_hashtag=sistemaprime" class="twitter-hashtag-button" data-lang="pt" data-related="fabiano_goes,diegolirio">Tweet #sistemaprime</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+			</div>
+			<br/><br/><br/>
+			<div class="row">
+				<p class="text-info">Mencao</p>
+				<div class="span3">
+					<a href="https://twitter.com/intent/tweet?screen_name=asiscoweb" class="twitter-mention-button" data-lang="pt" data-size="large" data-related="diegolirio,fabiano_goes">Tweet to @asiscoweb</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+				<div class="span3">
+					<a href="https://twitter.com/intent/tweet?screen_name=asiscoweb&text=Muito%20bom%2C%20parab%C3%A9ns....." class="twitter-mention-button" data-lang="pt" data-related="diegolirio,fabiano_goes">Tweet to @asiscoweb</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+			</div>
+			</br>
+			<a href"https://twitter.com/about/resources/buttons" target="_blank">https://twitter.com/about/resources/buttons</a>
 				
 		<!-- fim Componentes --> 
 	</div>
-	
 	<?php include 'footer.php'; ?>
 	
 	
