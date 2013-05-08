@@ -118,7 +118,7 @@
 		
 		<p>
 		   <a href="gallery_slide-camera-only.html" target="_blank" class="btn btn-primary">Only</a>
-		   <a href="#" class="btn">Download</a> 
+		   <a href="https://github.com/componentesweb/gallery_slide-camera-only.git" class="btn" target="_blank">Download (Git)</a> 
 		</p>		
 		
 	    
