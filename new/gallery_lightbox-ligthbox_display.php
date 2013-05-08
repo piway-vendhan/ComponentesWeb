@@ -132,7 +132,8 @@
 		
 		<p>
 		   <a href="gallery_lightbox-ligthbox_display-only.html" target="_blank" class="btn btn-primary">Only</a>
-		   <a href="download/gallery_lightbox-ligthbox_display-only.zip" class="btn">Download</a> 
+		   <!--<a href="download/gallery_lightbox-ligthbox_display-only.zip" class="btn">Download</a> -->
+		   <!--<a href="https://github.com/componentesweb/gallery_frame-variable_image_frames.git" class="btn" target="_blank">Download (Git)</a>-->
 		</p>		
 	    
 	</div>
