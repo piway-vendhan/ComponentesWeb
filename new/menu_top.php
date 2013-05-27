@@ -19,7 +19,10 @@
 					    <li><a href="gallery_frame-hoverbox_image_gallery.php">Hoverbox Image Gallery</a></li>
 					    <li><a href="gallery_frame-variable_image_frames.php">Variable Image Frames</a></li>
 						<li class="nav-header">Ligthbox</li>
-						<li><a href="gallery_lightbox-ligthbox_display.php">Lightbox Display</a></li>					    
+						<li><a href="gallery_lightbox-ligthbox_display.php">Lightbox Display</a></li>		
+						<li><a href="gallery_lightbox-lightbox2.php">Lightbox2</a></li>
+						<li><a href="gallery_lightbox-visuallightboxsetup.php">Visual Lightbox Setup</a></li>
+						<li><a href="gallery_lightbox-fancy_box.php">Fancy Box</a></li>
 						<li class="nav-header">Slide</li>
 						<li><a href="gallery_slide-cube_one.php">Cube One</a></li>
 						<li><a href="gallery_slide-camera.php">Camera</a></li>
